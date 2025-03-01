@@ -13,7 +13,6 @@ css: unocss
 title: Interfaces Tactiles et Mobiles
 ---
 
-
 # SPÉCIFICITÉ DES INTERFACES
 
 <div class="text-orange-400 text-5xl font-bold mt-4 mb-8">
@@ -31,6 +30,10 @@ title: Interfaces Tactiles et Mobiles
     <carbon-logo-github />
   </a>
 </div>
+
+<!--
+pour cette présentation sur les interfaces tactiles et mobiles nous allons explorer ensemble comment ces technologies transforment notre manière d'interagir avec le monde numérique, que ce soit dans notre vie quotidienne ou dans des environnements professionnels."
+-->
 
 ---
 layout: center
@@ -108,9 +111,14 @@ layout: two-cols
   <div class="text-xs opacity-70 mt-2 text-center">L'interaction tactile est devenue omniprésente dans notre quotidien</div>
 </div>
 
+<!--
+Les interfaces tactiles permettent une interaction directe, en éliminant le besoin de périphériques intermédiaires comme la souris ou le clavier, rendant l’expérience utilisateur plus intuitive et naturelle.
+-->
+
 ---
 layout: two-cols
 ---
+
 # Définition et Contexte
 <div class="mr-8">
 
@@ -128,6 +136,10 @@ layout: two-cols
   <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-lg shadow-xl" />
   <div class="text-xs opacity-70 mt-2 text-center">L'interaction tactile est devenue omniprésente dans notre quotidien</div>
 </div>
+
+<!--
+Les interfaces mobiles, quant à elles, sont spécialement conçues pour les appareils portables, prenant en compte des contraintes telles que la taille réduite de l’écran et l’autonomie de la batterie.
+-->
 
 ---
 
@@ -249,6 +261,11 @@ layout: section
     <p class="text-xs">Popularisation de la tablette tactile et nouvelles formes d'interaction</p>
   </div>
 </div>
+
+<!--
+Dès 1965, avec les premiers écrans tactiles destinés au contrôle du trafic aérien, nous voyons naître l’idée d’interaction par le toucher, qui s’est ensuite étendue à de nombreux domaines.
+Au fil des années, des innovations comme le PLATO IV en 1972, le HP-150 en 1983, puis l’avènement du smartphone avec l’iPhone en 2007, ont radicalement changé notre rapport aux interfaces numériques.
+-->
 
 ---
 layout: image-right
@@ -386,6 +403,11 @@ layout: section
 </div>
 </div>
 
+<!--
+L’un des points essentiels des interfaces tactiles est la manipulation directe : l’utilisateur interagit directement avec les éléments affichés, ce qui rend l’expérience plus immersive et intuitive.
+Les gestes tels que le tap, le swipe, le pinch et la rotation sont des interactions naturelles que les interfaces modernes doivent reconnaître et intégrer pour offrir un feedback immédiat, qu’il soit visuel, sonore ou haptique.
+-->
+
 ---
 
 # Modèles mentaux et métaphores
@@ -487,6 +509,12 @@ layout: two-cols
   - Positionnement des éléments critiques
 
 </div>
+
+<!--
+Les interfaces mobiles doivent tenir compte de contraintes spécifiques, notamment la taille limitée des écrans et la diversité des appareils, ce qui impose une hiérarchisation stricte de l’information.
+En plus de s’adapter aux variations matérielles, ces interfaces doivent également offrir une utilisation ergonomique, souvent avec une seule main, pour faciliter l’expérience en situation de mobilité.
+-->
+
 ---
 layout: two-cols
 ---
@@ -730,6 +758,11 @@ layout: section
 </div>
 </div>
 
+<!--
+Le design d’une interface tactile repose sur la clarté et la simplicité : chaque élément doit être assez grand pour être facilement touché et permettre un espacement suffisant pour éviter toute erreur.
+Un feedback rapide et précis est indispensable pour que l’utilisateur se sente en confiance et puisse interagir de manière fluide, sans ressentir de latence ou de confusion lors de ses actions."
+-->
+
 ---
 
 # Accessibilité des interfaces tactiles
@@ -918,6 +951,11 @@ layout: two-cols
 
 </div>
 
+<!--
+Aujourd’hui, nous observons une évolution vers des interfaces minimalistes qui privilégient l’essentiel, en éliminant les éléments superflus pour mieux concentrer l’attention sur le contenu.
+Les technologies émergentes telles que la réalité augmentée, la reconnaissance faciale et les interfaces haptiques avancées ouvrent de nouvelles perspectives, en repoussant les limites de l’interaction entre l’utilisateur et la machine.
+-->
+
 ---
 
 # Technologies émergentes
@@ -1023,6 +1061,10 @@ image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=f
 - Démocratisation des interfaces cerveau-machine
 - Expériences multi-sensorielles
 
+<!--
+En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la transformation de notre interaction avec le numérique, en offrant des expériences plus directes, intuitives et adaptées à notre mode de vie moderne.
+-->
+
 ---
 layout: center
 class: text-center
@@ -1043,3 +1085,7 @@ class: text-center
     <carbon-logo-github />
   </a>
 </div>
+
+<!--
+Je vous remercie pour votre attention et je suis maintenant disponible pour répondre à vos questions ou pour approfondir certains points de cette présentation.
+-->
