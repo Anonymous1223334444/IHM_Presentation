@@ -282,11 +282,14 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 - **Ondes acoustiques** : Détection par ultrasons
 - **Reconnaissance optique** : Caméras et capteurs
 
+<!--
+Les écrans résistifs répondent à la pression, tandis que les écrans capacitifs offrent un multi-touch fluide, et d'autres technologies, comme l'infrarouge, les ultrasons et la reconnaissance optique, enrichissent encore l'interaction tactile.
+-->
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=format&fit=crop&q=80
 ---
-
 
 # Évolution des capacités
 
@@ -295,6 +298,10 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 - Détection de pression variable
 - Haptic feedback (retour haptique)
 - Stylus et outils spécialisés
+
+<!--
+Les écrans sont passés du mono-touch au multi-touch, puis au 3D Touch, avec une meilleure précision, une latence réduite et la détection de la pression. Le retour haptique et l’usage de stylets améliorent aussi l’expérience.
+-->
 
 ---
 layout: section
@@ -468,6 +475,13 @@ Les gestes tels que le tap, le swipe, le pinch et la rotation sont des interacti
 </div>
 </div>
 
+<!--
+Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tandis que le design plat simplifie l’interface pour plus de clarté. Les interfaces efficaces réduisent la charge cognitive, utilisent un mapping naturel entre actions et effets, et respectent les modèles mentaux des utilisateurs.
+
+Definition:
+Le skeuomorphisme est un style de design qui imite l’apparence et les textures des objets réels pour faciliter l’usage numérique.
+-->
+
 ---
 layout: section
 ---
@@ -550,6 +564,10 @@ layout: two-cols
   - Sauvegarde d'état et reprise facile
 
 </div>
+
+<!--
+Les contraintes matérielles des interfaces mobiles incluent la diversité des appareils et des résolutions ainsi qu'une connectivité souvent instable, tandis que les contraintes d'usage se traduisent par une précision de toucher limitée et des interruptions fréquentes.
+-->
 
 ---
 
@@ -635,6 +653,17 @@ layout: two-cols
   </div>
 </div>
 
+<!--
+Les patterns de design mobile facilitent l’expérience utilisateur en structurant la navigation, l’organisation du contenu et les interactions. Ils incluent des éléments comme la navigation gestuelle, les cartes pour afficher l’information, les boutons flottants pour les actions rapides, ainsi que des retours visuels et haptiques pour améliorer l’intuitivité.
+
+Navigation gestuelle : Permet d’interagir sans boutons grâce aux gestes.
+Cartes (Cards UI) : Présente les informations sous forme de blocs clairs et modulables.
+Bouton d’action flottant (FAB) : Offre un accès rapide aux actions principales.
+Retours visuels et haptiques : Fournit des indications via animations et vibrations.
+Hiérarchie de l’information : Organise le contenu pour une lecture fluide.
+Dark Mode et adaptabilité : Améliore le confort visuel et économise l’énergie.
+-->
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=format&fit=crop&q=80
@@ -678,6 +707,10 @@ image: https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=form
   </div>
 </div>
 
+<!--
+iOS suit les Human Interface Guidelines avec une navigation hiérarchique fluide et des composants natifs comme les Action Sheets, tandis qu’Android applique Material Design avec des animations dynamiques, une navigation plus variée (bouton retour, navigation drawer) et une meilleure adaptabilité aux différents appareils.
+-->
+
 ---
 layout: section
 ---
@@ -719,9 +752,9 @@ layout: section
     <div>
       <div class="font-bold">Temps de réponse</div>
       <p class="text-xs">
-        • < 100ms: Sensation d'instantanéité<br>
-        • < 300ms: Perçu comme fluide<br>
-        • > 1s: Feedback de progression nécessaire
+        < 100ms: Sensation d'instantanéité<br>
+        < 300ms: Perçu comme fluide<br>
+        > 1s: Feedback de progression nécessaire
       </p>
     </div>
   </div>
@@ -733,9 +766,9 @@ layout: section
     <div>
       <div class="font-bold">Feedback visuel</div>
       <p class="text-xs">
-        • États visuels clairs (pressed, active, disabled)<br>
-        • Animations fonctionnelles<br>
-        • Indicateurs de progression
+        États visuels clairs (pressed, active, disabled)<br>
+        Animations fonctionnelles<br>
+        Indicateurs de progression
       </p>
     </div>
   </div>
@@ -747,9 +780,9 @@ layout: section
     <div>
       <div class="font-bold">Feedback tactile</div>
       <p class="text-xs">
-        • Vibrations subtiles (haptic feedback)<br>
-        • Patterns haptiques différenciés selon l'action<br>
-        • Complémentaire au feedback visuel
+        Vibrations subtiles (haptic feedback)<br>
+        Patterns haptiques différenciés selon l'action<br>
+        Complémentaire au feedback visuel
       </p>
     </div>
   </div>
@@ -825,6 +858,10 @@ Un feedback rapide et précis est indispensable pour que l’utilisateur se sent
 </div>
 </div>
 
+<!--
+Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un contraste insuffisant ou des tailles de texte trop petites pour les déficiences visuelles, des gestes complexes ou une précision limitée pour les déficiences motrices, et des interfaces surchargées pour les déficiences cognitives. Des solutions incluent l'utilisation de fonctionnalités natives comme VoiceOver, TalkBack, ou AssistiveTouch, et l'application de bonnes pratiques de développement telles que l'ajout d'étiquettes d'accessibilité, un ordre de navigation logique, et des tests avec des utilisateurs en situation de handicap.
+-->
+
 ---
 
 # Design responsive et adaptatif
@@ -898,6 +935,10 @@ Un feedback rapide et précis est indispensable pour que l’utilisateur se sent
 
 </div>
 </div>
+
+<!--
+Le design responsive et adaptatif comprend différentes approches telles que le mobile-first, qui privilégie les petits écrans avec des ajouts progressifs de fonctionnalités, le responsive web design qui adapte l'interface à toutes tailles d'écrans via des media queries, et le adaptive design, qui propose des versions spécifiques pour chaque appareil avec détection côté serveur. Parmi les techniques d'implémentation, on trouve les systèmes de grille flexible (CSS Grid, Flexbox), l'utilisation d'images responsives (srcset, SVG) et des patterns de navigation adaptative comme les menus off-canvas ou en accordéon.
+-->
 
 ---
 layout: section
@@ -1028,6 +1069,10 @@ Les technologies émergentes telles que la réalité augmentée, la reconnaissan
   </div>
 </div>
 
+<!--
+Les technologies émergentes incluent la réalité augmentée (AR) qui superpose des éléments virtuels au monde réel, les interfaces vocales combinant tactilité et voix pour des interactions multimodales, et la reconnaissance faciale et gestuelle permettant des interactions sans contact direct. Les interfaces haptiques avancées offrent des retours tactiles sophistiqués simulant différentes sensations, l'IA et les interfaces adaptatives s'ajustent aux comportements de l'utilisateur et au contexte, tandis que les écrans flexibles et pliables offrent de nouvelles interactions et usages avec des appareils comme le Samsung Galaxy Fold.
+-->
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=format&fit=crop&q=80
@@ -1047,6 +1092,10 @@ image: https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=f
   - Collecte de données contextuelles
   - Authentification biométrique
 
+<!--
+Les défis actuels des interfaces tactiles incluent l'équilibre entre simplicité et fonctionnalité, avec des interfaces minimalistes qui doivent parfois intégrer des fonctionnalités avancées grâce à la révélation progressive. La fragmentation des plateformes pose des problèmes de compatibilité entre différents systèmes d'exploitation, versions et tailles d'écrans. Enfin, la question de la vie privée et sécurité est de plus en plus présente, notamment avec la collecte de données contextuelles et l'usage de l'authentification biométrique.
+-->
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc3BlY3RpdmV8ZW58MHx8MHx8fDA%3D
@@ -1062,7 +1111,7 @@ image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=f
 - Expériences multi-sensorielles
 
 <!--
-En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la transformation de notre interaction avec le numérique, en offrant des expériences plus directes, intuitives et adaptées à notre mode de vie moderne.
+Les perspectives d'avenir des interfaces incluent les interfaces "sans interface", la fusion du physique et du numérique, la démocratisation des interfaces cerveau-machine et les expériences multi-sensorielles.
 -->
 
 ---
@@ -1087,5 +1136,7 @@ class: text-center
 </div>
 
 <!--
+En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la transformation de notre interaction avec le numérique, en offrant des expériences plus directes, intuitives et adaptées à notre mode de vie moderne.
+
 Je vous remercie pour votre attention et je suis maintenant disponible pour répondre à vos questions ou pour approfondir certains points de cette présentation.
 -->
