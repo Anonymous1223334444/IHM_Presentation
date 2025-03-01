@@ -81,8 +81,7 @@ class: text-center
 </div>
 
 <!--
-Pour débuter, voici la table des matières qui va structurer notre intervention sur les interfaces tactiles et mobiles."
-Nous commencerons par une introduction aux interfaces tactiles et mobiles, pour ensuite explorer leur évolution historique.
+Pour débuter nous commencerons par une introduction aux interfaces tactiles et mobiles, pour ensuite explorer leur évolution historique.
 La présentation se poursuivra avec une analyse des principes fondamentaux des interactions tactiles, ainsi que des spécificités propres aux interfaces mobiles.
 Nous aborderons ensuite le design et l’ergonomie de ces interfaces, avant de conclure avec un panorama des tendances et innovations à venir.
 Chaque section vous apportera un éclairage complémentaire, nous permettant de comprendre ensemble comment ces technologies transforment notre quotidien.
