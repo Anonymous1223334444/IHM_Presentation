@@ -40,7 +40,8 @@ layout: center
 class: text-center
 ---
 
-# Table des Matières
+# <span style="color: #2B90B6;">Table des Matières</span>
+
 
 <div class="grid grid-cols-3 gap-6 mt-8">
   <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
@@ -97,7 +98,8 @@ layout: section
 layout: two-cols
 ---
 
-# Définition et Contexte
+# <span style="color: #2B90B6;">Définition et Contexte</span>
+
 
 <div class="mr-8">
 
@@ -126,7 +128,8 @@ Les interfaces tactiles permettent une interaction directe, en éliminant le bes
 layout: two-cols
 ---
 
-# Définition et Contexte
+# <span style="color: #2B90B6;">Définition et Contexte</span>
+
 <div class="mr-8">
 
 ## Qu'est-ce qu'une interface mobile ?
@@ -140,8 +143,7 @@ layout: two-cols
 ::right::
 
 <div class="pl-4 pt-10">
-  <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-lg shadow-xl" />
-  <div class="text-xs opacity-70 mt-2 text-center">L'interaction tactile est devenue omniprésente dans notre quotidien</div>
+  <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-xl" />
 </div>
 
 <!--
@@ -150,7 +152,8 @@ Les interfaces mobiles, quant à elles, sont spécialement conçues pour les app
 
 ---
 
-# Importance dans le monde moderne
+# <span style="color: #2B90B6;">Importance dans le monde moderne</span>
+
 
 <div class="grid grid-cols-2 gap-4">
 <div>
@@ -211,9 +214,9 @@ layout: section
 
 ---
 
-# Les pionniers des interfaces tactiles
+# <span style="color: #2B90B6;">Les pionniers des interfaces tactiles</span>
 
-<div class="grid grid-cols-3 gap-4 mt-6">
+<div class="grid grid-cols-3 gap-2 mt-6">
   <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
     <div class="text-center mb-2">
       <carbon:document class="text-3xl text-orange-400 inline-block" />
@@ -280,7 +283,7 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 class: 'image-contain'
 ---
 
-# L'évolution des technologies tactiles
+# <span style="color: #2B90B6;" class="mt-8 block">L'évolution des technologies tactiles</span>
 
 ## Technologies principales
 
@@ -300,7 +303,7 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 class: 'image-contain'
 ---
 
-# Évolution des capacités
+# <span style="color: #2B90B6;" class="mt-8 block">Évolution des capacités</span>
 
 - Mono-touch → Multi-touch → 3D Touch/Force Touch
 - Précision accrue et latence réduite
@@ -320,7 +323,7 @@ layout: section
 
 ---
 
-# Principes d'interaction tactile
+# <span style="color: #2B90B6;">Principes d'interaction tactile</span>
 
 <div class="grid grid-cols-2 gap-8">
 <div>
@@ -426,7 +429,7 @@ Les gestes tels que le tap, le swipe, le pinch et la rotation sont des interacti
 
 ---
 
-# Modèles mentaux et métaphores
+# <span style="color: #2B90B6;">Modèles mentaux et métaphores</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
@@ -501,7 +504,7 @@ layout: section
 layout: two-cols
 ---
 
-# Contraintes des interfaces mobiles
+# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
 
 <div class="mr-6">
 
@@ -521,7 +524,7 @@ layout: two-cols
 
 <div class="pl-4">
 
-# Contraintes d'usage
+# <span style="color: #2B90B6;">Contraintes d'usage</span>
 
 - **Contexte d'utilisation variable**
   - Environnements bruyants, lumineux, en mouvement
@@ -542,7 +545,7 @@ En plus de s’adapter aux variations matérielles, ces interfaces doivent égal
 layout: two-cols
 ---
 
-# Contraintes des interfaces mobiles
+# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
 
 <div class="mr-6">
 
@@ -562,7 +565,7 @@ layout: two-cols
 
 <div class="pl-4">
 
-# Contraintes d'usage
+# <span style="color: #2B90B6;">Contraintes d'usage</span>
 
 - **Précision limitée**
   - "Fat finger problem" (problème du doigt épais)
@@ -580,7 +583,7 @@ Les contraintes matérielles des interfaces mobiles incluent la diversité des a
 
 ---
 
-# Patterns de design mobile
+# <span style="color: #2B90B6;">Patterns de design mobile</span>
 
 <div class="grid grid-cols-3 gap-4 mt-4">
   <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
@@ -679,7 +682,7 @@ image: https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=form
 class: 'image-contain'
 ---
 
-# Systèmes d'exploitation mobiles
+# <span style="color: #2B90B6;">Systèmes d'exploitation mobiles</span>
 
 ## iOS vs Android
 
@@ -729,7 +732,7 @@ layout: section
 
 ---
 
-# Principes d'ergonomie tactile
+# <span style="color: #2B90B6;">Principes d'ergonomie tactile</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
@@ -807,7 +810,7 @@ Un feedback rapide et précis est indispensable pour que l’utilisateur se sent
 
 ---
 
-# Accessibilité des interfaces tactiles
+## <span style="color: #2B90B6;">Accessibilité des interfaces tactiles</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
@@ -873,12 +876,12 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
 
 ---
 
-# Design responsive et adaptatif
+#### <span style="color: #2B90B6;">Design responsive et adaptatif</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-## Approches de conception
+#### Approches de conception
 
 - **Mobile-first**
   - Conception prioritaire pour petits écrans
@@ -896,7 +899,7 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
 </div>
 <div>
 
-## Techniques d'implémentation
+#### Techniques d'implémentation
 
 <div class="mt-4">
   <div class="flex items-start mb-4">
@@ -906,9 +909,9 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
     <div>
       <div class="font-bold">Systèmes de grille flexible</div>
       <p class="text-xs">
-        Grilles à 12 colonnes<br>
-        Unités relatives (%, em, rem, vh/vw)<br>
-        CSS Grid et Flexbox
+        - Grilles à 12 colonnes<br>
+        - Unités relatives (%, em, rem, vh/vw)<br>
+        - CSS Grid et Flexbox
       </p>
     </div>
   </div>
@@ -920,9 +923,9 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
     <div>
       <div class="font-bold">Images responsives</div>
       <p class="text-xs">
-        srcset et sizes attributes<br>
-        picture element<br>
-        Images vectorielles (SVG)
+        - srcset et sizes attributes<br>
+        - picture element<br>
+        - Images vectorielles (SVG)
       </p>
     </div>
   </div>
@@ -934,9 +937,9 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
     <div>
       <div class="font-bold">Patterns de navigation adaptative</div>
       <p class="text-xs">
-        Off-canvas navigation<br>
-        Priority+ pattern<br>
-        Transformation de menus en accordéons
+        - Off-canvas navigation<br>
+        - Priority+ pattern<br>
+        - Transformation de menus en accordéons
       </p>
     </div>
   </div>
@@ -959,11 +962,11 @@ layout: section
 layout: two-cols
 ---
 
-# Tendances actuelles
+# <span style="color: #2B90B6;">Tendances actuelles</span>
 
 <div class="mr-6">
 
-## Design minimaliste et fonctionnel
+### Design minimaliste et fonctionnel
 
 - **Réduction des éléments d'interface**
   - Focus sur le contenu et les tâches
@@ -983,7 +986,7 @@ layout: two-cols
 
 <div class="pl-4">
 
-## Personnalisation et contextualisation
+### Personnalisation et contextualisation
 
 - **Interfaces adaptatives**
   - Adaptation au contexte d'utilisation
@@ -1007,9 +1010,10 @@ Les technologies émergentes telles que la réalité augmentée, la reconnaissan
 -->
 
 ---
-# Technologies émergentes
 
-<div class="grid grid-cols-3 gap-4 mt-4">
+# <span style="color: #2B90B6;">Technologies émergentes</span>
+
+<div class="grid grid-cols-3 gap-2 mt-4">
   <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
     <div class="text-center mb-1">
       <carbon:augmented-reality class="text-2xl text-orange-400 inline-block" />
@@ -1087,7 +1091,7 @@ image: https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=f
 class: 'image-contain'
 ---
 
-# Défis actuels
+# <span style="color: #2B90B6;" class="mt-7 block">Défis actuels</span>
 
 - **Équilibre entre simplicité et fonctionnalité**
   - Interfaces minimalistes vs fonctionnalités avancées
@@ -1111,7 +1115,7 @@ image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=f
 class: 'image-contain'
 ---
 
-# Défis et perspectives
+# <span style="color: #2B90B6;">Défis et perspectives</span>
 
 ## Perspectives d'avenir
 
@@ -1129,7 +1133,7 @@ layout: center
 class: text-center
 ---
 
-# Merci de votre attention !
+# <span style="color: #2B90B6;">Merci de votre attention !</span>
 
 <div class="text-lg text-orange-400 mt-4">Des questions ?</div>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout section bg-gradient-to-b from-purple-900 to-blue-900">
+  <div class="slidev-layout section bg-gradient-to-b from-gray-900/95 via-gray-800/90 to-black">
     <NavBar />
     <div class="flex h-full items-center justify-center">
       <div>
