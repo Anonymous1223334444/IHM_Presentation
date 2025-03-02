@@ -206,6 +206,12 @@ Les interfaces mobiles, quant à elles, sont spécialement conçues pour les app
 </div>
 </div>
 
+<!--
+En 2023, on compte 5,3 milliards d’utilisateurs de smartphones dans le monde et 70 % du trafic Internet mondial provient des appareils mobiles. Ces chiffres illustrent l’omniprésence des interfaces tactiles et mobiles dans notre société. Les écrans tactiles se démocratisent dans tous les secteurs, que ce soit dans le commerce avec les caisses et bornes interactives, dans le transport avec la billetterie et les systèmes de navigation, dans l’éducation grâce aux tableaux interactifs, ou encore dans la santé via les équipements médicaux.
+
+Cette généralisation influence fortement les comportements des utilisateurs. En effet, ils attendent aujourd’hui des interactions intuitives et immédiates qui leur permettent d’agir rapidement et simplement. Les usages en contexte de mobilité, où l’on effectue plusieurs tâches en même temps et où l’attention est souvent divisée, requièrent des interfaces faciles à prendre en main. Par ailleurs, les interfaces se personnalisent et s’adaptent au contexte de chaque utilisateur, offrant ainsi une expérience sur mesure. Enfin, cette évolution ouvre la voie à de nouvelles formes d’interactions sociales et professionnelles, transformant la manière dont nous communiquons et travaillons au quotidien.
+-->
+
 ---
 layout: section
 ---
@@ -425,6 +431,8 @@ layout: section
 <!--
 L’un des points essentiels des interfaces tactiles est la manipulation directe : l’utilisateur interagit directement avec les éléments affichés, ce qui rend l’expérience plus immersive et intuitive.
 Les gestes tels que le tap, le swipe, le pinch et la rotation sont des interactions naturelles que les interfaces modernes doivent reconnaître et intégrer pour offrir un feedback immédiat, qu’il soit visuel, sonore ou haptique.
+
+Les principes de conception d'une interface tactile reposent sur plusieurs éléments essentiels. Le premier est la manipulation directe, ce qui signifie que les objets à l'écran réagissent immédiatement et de manière prévisible dès qu'on les touche. Ensuite, le feedback immédiat intervient pour fournir un retour visuel, sonore ou haptique, confirmant à l'utilisateur que son action a bien été prise en compte. L'affordance joue également un rôle important en proposant des indices visuels qui indiquent clairement comment interagir avec l'interface. Enfin, la tolérance aux erreurs permet de concevoir des interfaces qui aident à éviter ou à corriger facilement les erreurs, rendant l'utilisation plus sûre et intuitive.
 -->
 
 ---
@@ -492,6 +500,8 @@ Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tand
 
 Definition:
 Le skeuomorphisme est un style de design qui imite l’apparence et les textures des objets réels pour faciliter l’usage numérique.
+
+Les principes cognitifs essentiels à la réussite d’une interface. Il est important de réduire la charge cognitive, c’est-à-dire de minimiser l’effort mental nécessaire pour comprendre et utiliser l’interface. Le mapping naturel est également crucial, ce qui signifie que les contrôles doivent être liés de manière intuitive à leurs effets. Enfin, il faut que l’interface repose sur des modèles mentaux cohérents, en accord avec la manière dont les utilisateurs pensent que le système fonctionne. Ces principes permettent de créer une expérience utilisateur fluide et efficace.
 -->
 
 ---
@@ -521,10 +531,30 @@ layout: two-cols
 </div>
 
 ::right::
+# <span style="color: #2B90B6;" class="mt-40 block"></span>
+- **Variété des appareils**
+  - Fragmentation Android vs uniformité iOS
+  - Multiples résolutions et ratios d'écran
+
+- **Connectivité variable**
+  - Conception pour fonctionnement hors-ligne
+  - Gestion des états de synchronisation
+
+<!--
+Les interfaces mobiles doivent être conçues en tenant compte de plusieurs contraintes qui influencent tant le matériel que l’usage. Du côté matériel, la taille limitée de l’écran impose d'hiérarchiser l’information de manière stricte et de concevoir des interfaces adaptatives et responsives. L’autonomie de la batterie joue également un rôle important, car elle impacte les choix d’interface, comme l’activation d’un mode sombre, et nécessite l’optimisation des animations et des effets pour économiser l’énergie. Par ailleurs, la variété des appareils, avec la fragmentation d’Android face à l’uniformité d’iOS et les multiples résolutions et ratios d’écran, rend la conception plus complexe. La connectivité variable, quant à elle, oblige à prévoir des fonctionnalités de fonctionnement hors-ligne et à gérer efficacement les états de synchronisation.
+-->
+
+---
+layout: two-cols
+---
+
+# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
+
+<div class="mr-6">
 
 <div class="pl-4">
 
-# <span style="color: #2B90B6;">Contraintes d'usage</span>
+## Contraintes d'usage
 
 - **Contexte d'utilisation variable**
   - Environnements bruyants, lumineux, en mouvement
@@ -536,36 +566,13 @@ layout: two-cols
 
 </div>
 
-<!--
-Les interfaces mobiles doivent tenir compte de contraintes spécifiques, notamment la taille limitée des écrans et la diversité des appareils, ce qui impose une hiérarchisation stricte de l’information.
-En plus de s’adapter aux variations matérielles, ces interfaces doivent également offrir une utilisation ergonomique, souvent avec une seule main, pour faciliter l’expérience en situation de mobilité.
--->
-
----
-layout: two-cols
----
-
-# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
-
-<div class="mr-6">
-
-## Contraintes matérielles
-
-- **Variété des appareils**
-  - Fragmentation Android vs uniformité iOS
-  - Multiples résolutions et ratios d'écran
-
-- **Connectivité variable**
-  - Conception pour fonctionnement hors-ligne
-  - Gestion des états de synchronisation
-
 </div>
 
 ::right::
 
 <div class="pl-4">
 
-# <span style="color: #2B90B6;">Contraintes d'usage</span>
+# <span style="color: #2B90B6;" class="mt-40 block"></span>
 
 - **Précision limitée**
   - "Fat finger problem" (problème du doigt épais)
@@ -578,7 +585,7 @@ layout: two-cols
 </div>
 
 <!--
-Les contraintes matérielles des interfaces mobiles incluent la diversité des appareils et des résolutions ainsi qu'une connectivité souvent instable, tandis que les contraintes d'usage se traduisent par une précision de toucher limitée et des interruptions fréquentes.
+Du côté de l’usage, le contexte d’utilisation des appareils mobiles est très variable. Les utilisateurs évoluent dans des environnements bruyants, lumineux ou en mouvement, ce qui les conduit à être souvent en multitâche avec une attention divisée. De plus, l’interaction se fait généralement à une main, ce qui nécessite de placer les éléments critiques dans la zone d’atteinte du pouce. La précision de l’interface est également limitée par le problème du « doigt épais », ce qui impose de respecter une taille minimale d’environ 44 pixels pour les éléments interactifs. Enfin, les interruptions fréquentes telles que les notifications, les appels ou les changements de contexte obligent à concevoir des interfaces capables de sauvegarder l’état et de permettre une reprise facile de l’activité.
 -->
 
 ---
@@ -721,7 +728,18 @@ class: 'image-contain'
 </div>
 
 <!--
-iOS suit les Human Interface Guidelines avec une navigation hiérarchique fluide et des composants natifs comme les Action Sheets, tandis qu’Android applique Material Design avec des animations dynamiques, une navigation plus variée (bouton retour, navigation drawer) et une meilleure adaptabilité aux différents appareils.
+Nous allons maitenant comparer les 2  systèmes d'exploitation les plus populaires iOS et Android.
+iOS utilise des règles de design simples et élégantes. Il suit les Human Interface Guidelines.
+Android utilise le Material Design. Il mise sur le mouvement et la réactivité.
+
+Pour la navigation, iOS propose des tab bars et le geste « swipe back » (geste qui permet de revenir en arrière en faisant glisser son doigt de gauche à droite sur l'écran).
+Android utilise le bouton de retour et le menu déroulant.
+
+Les composants natifs sont différents.
+iOS offre des Action Sheets, Activity Views et Pickers.
+Android propose des Bottom Sheets, un Floating Action Button et des Snackbars.
+
+Enfin, iOS fonctionne dans un environnement très contrôlé avec peu de fragmentation, tandis qu'Android doit s'adapter à de nombreux appareils.
 -->
 
 ---
@@ -732,12 +750,12 @@ layout: section
 
 ---
 
-# <span style="color: #2B90B6;">Principes d'ergonomie tactile</span>
+## <span style="color: #2B90B6;">Principes d'ergonomie tactile</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-## Taille et espacement
+### Taille et espacement
 
 - **Taille minimale des cibles tactiles**
   - Apple: 44×44 points
@@ -754,7 +772,7 @@ layout: section
 </div>
 <div>
 
-## Feedback et réactivité
+### Feedback et réactivité
 
 <div class="mt-4">
   <div class="flex items-start mb-4">
@@ -804,8 +822,15 @@ layout: section
 </div>
 
 <!--
-Le design d’une interface tactile repose sur la clarté et la simplicité : chaque élément doit être assez grand pour être facilement touché et permettre un espacement suffisant pour éviter toute erreur.
-Un feedback rapide et précis est indispensable pour que l’utilisateur se sente en confiance et puisse interagir de manière fluide, sans ressentir de latence ou de confusion lors de ses actions."
+Pour assurer une bonne ergonomie tactile, il faut respecter quelques principes importants.
+
+D'abord, la taille des éléments interactifs doit être suffisante pour faciliter leur utilisation. Apple recommande une taille minimale de 44×44 points, tandis que Google suggère 48×48 dp (pixels indépendants de la densité). L'espacement entre les éléments est aussi crucial : au moins 8 pixels, voire 12 pixels pour les zones critiques, afin d'éviter les erreurs de toucher. On doit aussi tenir compte des zones d'atteinte du pouce. La zone verte est facilement accessible, tandis que la zone jaune demande un peu plus d'effort.
+
+Ensuite, le feedback et la réactivité jouent un rôle essentiel. Pour que les interactions soient perçues comme rapides, l'interface doit répondre en moins de 100 millisecondes. Jusqu'à 300 millisecondes, l'expérience reste fluide, mais au-delà d'une seconde, un indicateur de progression est nécessaire pour éviter la frustration.
+
+Le feedback visuel permet de montrer clairement l'état des éléments, par exemple lorsqu'un bouton est pressé, actif ou désactivé. Les animations peuvent également indiquer qu'une action est en cours.
+
+Enfin, le feedback tactile, comme les vibrations subtiles (haptic feedback), aide à renforcer l'expérience utilisateur. Différents motifs de vibrations peuvent signaler différentes actions, en complément du feedback visuel.
 -->
 
 ---
@@ -871,7 +896,13 @@ Un feedback rapide et précis est indispensable pour que l’utilisateur se sent
 </div>
 
 <!--
-Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un contraste insuffisant ou des tailles de texte trop petites pour les déficiences visuelles, des gestes complexes ou une précision limitée pour les déficiences motrices, et des interfaces surchargées pour les déficiences cognitives. Des solutions incluent l'utilisation de fonctionnalités natives comme VoiceOver, TalkBack, ou AssistiveTouch, et l'application de bonnes pratiques de développement telles que l'ajout d'étiquettes d'accessibilité, un ordre de navigation logique, et des tests avec des utilisateurs en situation de handicap.
+Pour rendre les interfaces tactiles accessibles, il faut relever plusieurs défis.
+
+Les déficiences visuelles peuvent poser problème si le contraste est insuffisant ou si le texte est trop petit. Pour les personnes ayant des déficiences motrices, la précision du toucher peut être limitée, les gestes complexes difficiles à réaliser, et la fatigue peut survenir lors d'utilisations prolongées. Quant aux déficiences cognitives, elles peuvent rendre les interfaces surchargées ou les gestes non-standards compliqués à mémoriser.
+
+Pour surmonter ces défis, il existe des solutions d'accessibilité intégrées aux systèmes mobiles. Sur iOS, VoiceOver aide à la navigation vocale, tandis que TalkBack remplit cette fonction sur Android. Les deux plateformes offrent des options de zoom, de contraste, de taille de texte ajustable, ainsi que des fonctionnalités d'assistance comme AssistiveTouch ou Switch Control.
+
+Les développeurs peuvent aussi appliquer de bonnes pratiques pour améliorer l'accessibilité. Cela inclut l'utilisation d'étiquettes d'accessibilité sur tous les éléments interactifs, un ordre de navigation logique, des alternatives aux gestes complexes, et surtout, tester l'application avec des personnes en situation de handicap pour garantir une expérience utilisateur optimale.
 -->
 
 ---
@@ -949,7 +980,13 @@ Les interfaces tactiles font face à plusieurs défis d'accessibilité, comme un
 </div>
 
 <!--
-Le design responsive et adaptatif comprend différentes approches telles que le mobile-first, qui privilégie les petits écrans avec des ajouts progressifs de fonctionnalités, le responsive web design qui adapte l'interface à toutes tailles d'écrans via des media queries, et le adaptive design, qui propose des versions spécifiques pour chaque appareil avec détection côté serveur. Parmi les techniques d'implémentation, on trouve les systèmes de grille flexible (CSS Grid, Flexbox), l'utilisation d'images responsives (srcset, SVG) et des patterns de navigation adaptative comme les menus off-canvas ou en accordéon.
+Le design responsive et adaptatif permet aux interfaces de s'adapter à toutes les tailles d'écran, offrant ainsi une expérience utilisateur optimale quel que soit l'appareil utilisé.
+
+L'approche mobile-first consiste à concevoir l'interface en priorité pour les petits écrans, puis à ajouter progressivement des fonctionnalités pour les plus grands écrans. Le Responsive Web Design permet à l'interface de s'adapter automatiquement grâce à l'utilisation de media queries CSS, ce qui garantit une fluidité visuelle sur toutes les tailles d'écran. Quant au design adaptatif, il implique de créer des versions spécifiques de l'interface pour différents appareils, avec une détection côté serveur pour optimiser l'expérience sur chaque plateforme.
+
+Pour mettre en œuvre un design adaptatif, il est important d'utiliser des systèmes de grille flexibles basés sur CSS Grid ou Flexbox, avec des unités relatives telles que pourcentages, em, rem ou encore vh/vw. Les images doivent également être responsives, en utilisant par exemple les attributs srcset et sizes, l'élément <picture> ou encore des images vectorielles (SVG) pour garantir une bonne adaptation visuelle. En termes de navigation, des techniques comme les menus "off-canvas", les patterns "Priority+" ou encore la transformation des menus en accordéons permettent de rendre l'accès aux fonctionnalités plus intuitif sur mobile.
+
+En adoptant ces principes, le design responsive et adaptatif assure une navigation fluide et agréable sur tous types d'appareils, qu'il s'agisse de smartphones, de tablettes ou d'ordinateurs.
 -->
 
 ---
@@ -1005,8 +1042,13 @@ layout: two-cols
 </div>
 
 <!--
-Aujourd’hui, nous observons une évolution vers des interfaces minimalistes qui privilégient l’essentiel, en éliminant les éléments superflus pour mieux concentrer l’attention sur le contenu.
-Les technologies émergentes telles que la réalité augmentée, la reconnaissance faciale et les interfaces haptiques avancées ouvrent de nouvelles perspectives, en repoussant les limites de l’interaction entre l’utilisateur et la machine.
+Les tendances actuelles en matière de design d'interfaces tactiles privilégient à la fois la simplicité et la personnalisation pour améliorer l'expérience utilisateur.
+
+Le design minimaliste se concentre sur l'essentiel en réduisant les éléments d'interface pour mettre en avant le contenu et les tâches principales. Les interfaces gestuelles, comme le swipe ou le pinch, permettent de naviguer sans utiliser de boutons visibles, rendant l'expérience plus intuitive et immersive. Le mode sombre gagne également en popularité, non seulement pour réduire la fatigue oculaire, mais aussi pour prolonger l'autonomie des appareils équipés d'écrans OLED.
+
+En parallèle, la personnalisation et la contextualisation jouent un rôle clé. Les interfaces adaptatives ajustent automatiquement leur comportement en fonction du contexte d'utilisation et apprennent progressivement les préférences de l'utilisateur pour anticiper ses besoins. Les micro-interactions, sous forme d'animations légères, apportent un retour visuel subtil et rendent l'expérience plus engageante. Enfin, l'utilisation de design systems permet de maintenir une cohérence visuelle et fonctionnelle sur différentes plateformes tout en facilitant la réutilisation des composants lors du développement.
+
+En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes visent à offrir des interfaces plus intuitives, réactives et agréables à utiliser au quotidien.
 -->
 
 ---
@@ -1082,7 +1124,21 @@ Les technologies émergentes telles que la réalité augmentée, la reconnaissan
 </div>
 
 <!--
-Les technologies émergentes incluent la réalité augmentée (AR) qui superpose des éléments virtuels au monde réel, les interfaces vocales combinant tactilité et voix pour des interactions multimodales, et la reconnaissance faciale et gestuelle permettant des interactions sans contact direct. Les interfaces haptiques avancées offrent des retours tactiles sophistiqués simulant différentes sensations, l'IA et les interfaces adaptatives s'ajustent aux comportements de l'utilisateur et au contexte, tandis que les écrans flexibles et pliables offrent de nouvelles interactions et usages avec des appareils comme le Samsung Galaxy Fold.
+Les technologies émergentes transforment les interfaces tactiles en offrant des expériences plus immersives et intuitives.
+
+La réalité augmentée (AR) permet de superposer des éléments virtuels au monde réel à travers l'écran tactile, avec des applications variées en navigation, éducation, shopping et jeux. Des plateformes comme ARKit d'Apple ou ARCore de Google facilitent cette intégration.
+
+Les interfaces vocales combinent la voix et le tactile pour une interaction plus naturelle et accessible. Des assistants vocaux tels que Siri ou Google Assistant permettent de contrôler des applications sans les mains, ajoutant une dimension pratique aux interfaces tactiles.
+
+La reconnaissance faciale et gestuelle enrichit l'interaction en détectant les expressions et les mouvements, souvent sans contact direct. Des technologies comme Face ID ou Samsung Air Gestures montrent comment cette approche améliore la fluidité de l'expérience utilisateur.
+
+Les interfaces haptiques avancées offrent un retour tactile sophistiqué, simulant différentes textures et sensations sur des écrans plats. Par exemple, le Taptic Engine d'Apple ou les retours haptiques ultrasoniques apportent une nouvelle dimension sensorielle aux interfaces tactiles.
+
+L'intelligence artificielle (IA) permet de créer des interfaces adaptatives capables d'apprendre et de s'adapter au comportement de l'utilisateur et au contexte. Grâce à l'IA, les interfaces peuvent proposer des suggestions contextuelles ou même se réorganiser automatiquement pour mieux répondre aux besoins de l'utilisateur.
+
+Enfin, les écrans flexibles et pliables ouvrent la voie à de nouveaux facteurs de forme, permettant des interactions inédites. Des appareils comme le Samsung Galaxy Fold ou le Huawei Mate X illustrent le potentiel de ces innovations pour créer des interfaces plus dynamiques et polyvalentes.
+
+En combinant ces technologies émergentes, les interfaces tactiles deviennent plus intelligentes, réactives et immersives, répondant aux attentes des utilisateurs modernes en matière d'interaction numérique.
 -->
 
 ---
@@ -1106,7 +1162,15 @@ class: 'image-contain'
   - Authentification biométrique
 
 <!--
-Les défis actuels des interfaces tactiles incluent l'équilibre entre simplicité et fonctionnalité, avec des interfaces minimalistes qui doivent parfois intégrer des fonctionnalités avancées grâce à la révélation progressive. La fragmentation des plateformes pose des problèmes de compatibilité entre différents systèmes d'exploitation, versions et tailles d'écrans. Enfin, la question de la vie privée et sécurité est de plus en plus présente, notamment avec la collecte de données contextuelles et l'usage de l'authentification biométrique.
+Les interfaces tactiles modernes font face à plusieurs défis majeurs.
+
+L'un des principaux défis est de trouver un équilibre entre simplicité et fonctionnalité. Les utilisateurs préfèrent des interfaces minimalistes qui ne les submergent pas d'informations, mais ils attendent aussi des fonctionnalités avancées. Pour répondre à ce besoin, la technique de la "révélation progressive" est souvent utilisée : seules les options essentielles sont affichées au départ, et les fonctionnalités plus complexes apparaissent au fur et à mesure des interactions.
+
+La fragmentation des plateformes représente également un défi de taille. Avec la multiplication des systèmes d'exploitation, des versions logicielles, des tailles d'écran et des capacités matérielles, il est difficile pour les développeurs de créer des interfaces uniformes et optimisées pour chaque configuration. Cette diversité exige des efforts supplémentaires pour assurer une expérience utilisateur cohérente sur tous les appareils.
+
+Enfin, la vie privée et la sécurité sont des préoccupations croissantes. Les interfaces tactiles modernes collectent souvent des données contextuelles pour améliorer l'expérience utilisateur, mais cela soulève des questions sur la confidentialité des données. L'authentification biométrique, comme la reconnaissance faciale ou l'empreinte digitale, aide à renforcer la sécurité, mais elle doit être utilisée avec précaution pour éviter les abus et protéger les informations sensibles des utilisateurs.
+
+Pour relever ces défis, les concepteurs d'interfaces tactiles doivent trouver un juste milieu entre innovation, accessibilité et respect de la vie privée, tout en assurant une expérience utilisateur fluide et sécurisée.
 -->
 
 ---
@@ -1117,7 +1181,7 @@ class: 'image-contain'
 
 # <span style="color: #2B90B6;">Défis et perspectives</span>
 
-## Perspectives d'avenir
+## <span class="mb-7 block">Perspectives d'avenir</span>
 
 - Interfaces "sans interface" (Zero UI)
 - Fusion du physique et du numérique
@@ -1125,7 +1189,7 @@ class: 'image-contain'
 - Expériences multi-sensorielles
 
 <!--
-Les perspectives d'avenir des interfaces incluent les interfaces "sans interface", la fusion du physique et du numérique, la démocratisation des interfaces cerveau-machine et les expériences multi-sensorielles.
+Les perspectives d'avenir des interfaces tactiles incluent les interfaces "sans interface" (Zero UI), qui permettent une interaction sans écran, utilisant la voix ou les gestes. Il y a aussi la fusion du physique et du numérique grâce à la réalité augmentée, permettant d'interagir avec des objets virtuels dans le monde réel. Les interfaces cerveau-machine deviennent de plus en plus présentes, offrant la possibilité de contrôler des appareils par la pensée, ce qui permet une interaction plus rapide et accessible. Enfin, les expériences multi-sensorielles, qui combinent plusieurs sens comme le toucher et l'odorat, visent à rendre l'expérience utilisateur encore plus immersive.
 -->
 
 ---
