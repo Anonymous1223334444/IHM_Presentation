@@ -277,6 +277,7 @@ Au fil des années, des innovations comme le PLATO IV en 1972, le HP-150 en 1983
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=format&fit=crop&q=80
+class: 'image-contain'
 ---
 
 # L'évolution des technologies tactiles
@@ -296,6 +297,7 @@ Les écrans résistifs répondent à la pression, tandis que les écrans capacit
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=format&fit=crop&q=80
+class: 'image-contain'
 ---
 
 # Évolution des capacités
@@ -674,6 +676,7 @@ Dark Mode et adaptabilité : Améliore le confort visuel et économise l’éner
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=format&fit=crop&q=80
+class: 'image-contain'
 ---
 
 # Systèmes d'exploitation mobiles
@@ -744,7 +747,6 @@ layout: section
 - **Zones d'atteinte du pouce**
   - Zone verte: facile d'accès
   - Zone jaune: accessible avec étirement
-  - Zone rouge: difficile d'accès, éviter pour actions fréquentes
 
 </div>
 <div>
@@ -774,7 +776,7 @@ layout: section
       <div class="font-bold">Feedback visuel</div>
       <p class="text-xs">
         États visuels clairs (pressed, active, disabled)<br>
-        Animations fonctionnelles<br>
+        Animations fonctionnelles >
         Indicateurs de progression
       </p>
     </div>
@@ -787,7 +789,7 @@ layout: section
     <div>
       <div class="font-bold">Feedback tactile</div>
       <p class="text-xs">
-        Vibrations subtiles (haptic feedback)<br>
+        Vibrations subtiles (haptic feedback) >
         Patterns haptiques différenciés selon l'action<br>
         Complémentaire au feedback visuel
       </p>
@@ -1005,73 +1007,72 @@ Les technologies émergentes telles que la réalité augmentée, la reconnaissan
 -->
 
 ---
-
 # Technologies émergentes
 
 <div class="grid grid-cols-3 gap-4 mt-4">
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:augmented-reality class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">Réalité augmentée (AR)</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Superposition d'éléments virtuels au monde réel via l'écran tactile. Applications: navigation, éducation, shopping, jeux.
-      <span class="text-xs mt-2 text-orange-300">(Ex: ARKit (Apple), ARCore (Google), Snapchat Lenses)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: ARKit (Apple), ARCore (Google), Snapchat Lenses)</span>
     </p>
   </div>
   
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:voice-activate class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">Interfaces vocales</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Combinaison du tactile et de la voix pour une interaction multimodale plus naturelle et accessible.
-      <span class="text-xs mt-2 text-orange-300">(Ex: Siri, Google Assistant, commandes vocales dans les apps)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: Siri, Google Assistant, commandes vocales dans les apps)</span>
     </p>
   </div>
   
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:face-activated class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">Reconnaissance faciale et gestuelle</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Détection des expressions et mouvements pour enrichir l'interaction sans contact direct.
-      <span class="text-xs mt-2 text-orange-300">(Ex: Face ID, Samsung Air Gestures, contrôles par regard)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: Face ID, Samsung Air Gestures, contrôles par regard)</span>
     </p>
   </div>
   
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:touch-interaction class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">Interfaces haptiques avancées</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Retour tactile sophistiqué simulant différentes textures et sensations sur écrans plats.
-      <span class="text-xs mt-2 text-orange-300">(Ex: Apple Taptic Engine, retour haptique ultrasonique)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: Apple Taptic Engine, retour haptique ultrasonique)</span>
     </p>
   </div>
   
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:ai-results class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">IA et interfaces adaptatives</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Interfaces qui apprennent et s'adaptent au comportement de l'utilisateur et au contexte.
-      <span class="text-xs mt-2 text-orange-300">(Ex: Suggestions contextuelles, UI qui se réorganise selon l'usage)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: Suggestions contextuelles, UI qui se réorganise selon l'usage)</span>
     </p>
   </div>
   
-  <div v-click class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
+  <div v-click class="bg-gray-800 bg-opacity-50 p-2 rounded-lg">
+    <div class="text-center mb-1">
       <carbon:screen class="text-2xl text-orange-400 inline-block" />
     </div>
     <div class="font-bold">Écrans flexibles et pliables</div>
-    <p class="text-xs mt-2">
+    <p class="text-xs mt-1">
       Nouveaux facteurs de forme permettant de nouvelles interactions et usages.
-      <span class="text-xs mt-2 text-orange-300">(Ex: Samsung Galaxy Fold, Huawei Mate X, concepts d'écrans enroulables)</span>
+      <span class="text-xs mt-1 text-orange-300">(Ex: Samsung Galaxy Fold, Huawei Mate X, concepts d'écrans enroulables)</span>
     </p>
   </div>
 </div>
@@ -1083,6 +1084,7 @@ Les technologies émergentes incluent la réalité augmentée (AR) qui superpose
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&auto=format&fit=crop&q=80
+class: 'image-contain'
 ---
 
 # Défis actuels
@@ -1106,6 +1108,7 @@ Les défis actuels des interfaces tactiles incluent l'équilibre entre simplicit
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc3BlY3RpdmV8ZW58MHx8MHx8fDA%3D
+class: 'image-contain'
 ---
 
 # Défis et perspectives
@@ -1147,3 +1150,26 @@ En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la 
 
 Je vous remercie pour votre attention et je suis maintenant disponible pour répondre à vos questions ou pour approfondir certains points de cette présentation.
 -->
+
+<style>
+/* Ajouter ces règles globales */
+img {
+  object-fit: contain !important;
+  max-height: 70vh;
+}
+
+.image-contain {
+  background-size: contain !important;
+  background-position: center center !important;
+}
+
+.grid img {
+  max-height: 200px;
+  width: auto !important;
+}
+
+.slidev-layout.image-right {
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1rem;
+}
+</style>
