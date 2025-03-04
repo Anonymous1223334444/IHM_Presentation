@@ -143,7 +143,7 @@ layout: two-cols
 ::right::
 
 <div class="pl-4 pt-10">
-  <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-lg shadow-xl" />
+  <img src="https://images.unsplash.com/photo-1615526675250-dbe5d4302ae0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdhdGNoJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D" />
 </div>
 
 <!--
