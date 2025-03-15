@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1920&auto=format&fit=crop
+background: https://i.pinimg.com/736x/b3/04/5e/b3045e4134f98a0556b44a885fad2bdc.jpg
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
@@ -13,10 +13,10 @@ css: unocss
 title: Interfaces Tactiles et Mobiles
 ---
 
-# SPÉCIFICITÉ DES INTERFACES
+# INTERFACES TACTILES ET MOBILES
 
 <div class="text-orange-400 text-5xl font-bold mt-4 mb-8">
-  Tactile et Mobile !
+  Le monde au bout des doigts
 </div>
 
 <div class="pt-10 text-lg">
@@ -40,44 +40,43 @@ layout: center
 class: text-center
 ---
 
-# <span style="color: #2B90B6;">Table des Matières</span>
+# <span class="text-3xl font-bold text-[#2B90B6]">Au programme</span>
 
-
-<div class="grid grid-cols-3 gap-6 mt-8">
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">01</div>
-    <div class="text-xl font-bold">Introduction</div>
-    <div class="text-xs opacity-80">aux Interfaces Tactiles et Mobiles</div>
+<div class="grid grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto">
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">01</div>
+    <div class="text-2xl font-bold mb-2">Introduction</div>
+    <div class="text-base opacity-90">Qu'est-ce que les interfaces tactiles et mobiles ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">02</div>
-    <div class="text-xl font-bold">Évolution historique</div>
-    <div class="text-xs opacity-80">des interfaces tactiles</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">02</div>
+    <div class="text-2xl font-bold mb-2">Histoire</div>
+    <div class="text-base opacity-90">Comment ont-elles évolué ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">03</div>
-    <div class="text-xl font-bold">Principes fondamentaux</div>
-    <div class="text-xs opacity-80">des interfaces tactiles</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">03</div>
+    <div class="text-2xl font-bold mb-2">Principes</div>
+    <div class="text-base opacity-90">Comment ça marche ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">04</div>
-    <div class="text-xl font-bold">Spécificités</div>
-    <div class="text-xs opacity-80">des Interfaces Mobiles</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">04</div>
+    <div class="text-2xl font-bold mb-2">Spécificités mobiles</div>
+    <div class="text-base opacity-90">Qu'est-ce qui est unique aux mobiles ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">05</div>
-    <div class="text-xl font-bold">Design et ergonomie</div>
-    <div class="text-xs opacity-80">de ces interfaces</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">05</div>
+    <div class="text-2xl font-bold mb-2">Design et utilisation</div>
+    <div class="text-base opacity-90">Comment les rendre faciles à utiliser ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">06</div>
-    <div class="text-xl font-bold">Tendances et innovations</div>
-    <div class="text-xs opacity-80">Vers quel futur ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">06</div>
+    <div class="text-2xl font-bold mb-2">Le futur</div>
+    <div class="text-base opacity-90">Quelles sont les prochaines étapes ?</div>
   </div>
 </div>
 
@@ -92,115 +91,109 @@ Chaque section vous apportera un éclairage complémentaire, nous permettant de 
 layout: section
 ---
 
-# 01. Introduction aux Interfaces Tactiles et Mobiles
+# <span class="text-4xl font-bold">01. Introduction : Tactile et Mobile</span>
 
 ---
 layout: two-cols
+class: items-center
 ---
 
-# <span style="color: #2B90B6;">Définition et Contexte</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Définition et Contexte</span>
 
+<div class="mr-10">
 
-<div class="mr-8">
+## Interfaces Tactiles
 
-## Qu'est-ce qu'une interface tactile ?
-
-- Système permettant l'interaction directe via le toucher
-- Supprime les périphériques intermédiaires (souris, clavier)
-- Crée une expérience plus intuitive et naturelle
-- Permet une manipulation directe des objets numériques
-
+<ul class="space-y-4 text-lg mt-6">
+  <li>Interaction directe avec l'écran</li>
+  <li>On utilise le toucher, pas de souris ni clavier</li>
+  <li>Plus naturel et facile à utiliser</li>
+</ul>
 
 </div>
 
 ::right::
 
-<div class="pl-4 pt-10">
-  <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-lg shadow-xl" />
-  <div class="text-xs opacity-70 mt-2 text-center">L'interaction tactile est devenue omniprésente dans notre quotidien</div>
+<div class="pl-8 flex items-center justify-center h-full">
+  <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-xl shadow-2xl max-h-[60vh] object-cover" />
 </div>
 
 <!--
-Les interfaces tactiles permettent une interaction directe, en éliminant le besoin de périphériques intermédiaires comme la souris ou le clavier, rendant l’expérience utilisateur plus intuitive et naturelle.
+Les interfaces tactiles permettent une interaction directe, en éliminant le besoin de périphériques intermédiaires comme la souris ou le clavier, rendant l'expérience utilisateur plus intuitive et naturelle.
 -->
 
 ---
 layout: two-cols
+class: items-center
 ---
 
-# <span style="color: #2B90B6;">Définition et Contexte</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Définition et Contexte</span>
 
-<div class="mr-8">
+<div class="mr-10">
 
-## Qu'est-ce qu'une interface mobile ?
+## Interfaces Mobiles
 
-- Interface conçue pour des appareils portables
-- Adaptée aux contraintes de mobilité et d'usage nomade
-- Optimisée pour des écrans de taille réduite
-- Pensée pour des contextes d'utilisation variés
+<ul class="space-y-4 text-lg mt-6">
+  <li>Pour les appareils que l'on emporte partout</li>
+  <li>Adaptées aux petits écrans et à l'utilisation en mouvement</li>
+  <li>Exemples : téléphone, tablette, montre connectée</li>
+</ul>
+
 </div>
 
 ::right::
 
-<div class="pl-4 pt-10">
-  <img src="https://plus.unsplash.com/premium_photo-1712761996875-3057cee4f6af?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGUlMjB3YXRjaCUyMHZzJTIwc21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" />
+<div class="pl-8 flex items-center justify-center h-full">
+  <img src="https://plus.unsplash.com/premium_photo-1712761996875-3057cee4f6af?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGUlMjB3YXRjaCUyMHZzJTIwc21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" class="rounded-xl shadow-2xl max-h-[60vh] object-cover" />
 </div>
 
 <!--
-Les interfaces mobiles, quant à elles, sont spécialement conçues pour les appareils portables, prenant en compte des contraintes telles que la taille réduite de l’écran et l’autonomie de la batterie.
+Les interfaces mobiles, quant à elles, sont spécialement conçues pour les appareils portables, prenant en compte des contraintes telles que la taille réduite de l'écran et l'autonomie de la batterie.
 -->
 
 ---
+class: px-10
+---
 
-# <span style="color: #2B90B6;">Importance dans le monde moderne</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Pourquoi c'est important ?</span>
+# <span class="text-2xl font-bold text-[#2B90B6] mb-8 block">📱 Des chiffres qui parlent</span>
 
-
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-12 mt-8">
 <div>
 
-## Omniprésence des interfaces tactiles et mobiles
-
-- **5,3 milliards** d'utilisateurs de smartphones dans le monde en 2023
-- **70%** du trafic internet mondial provient des appareils mobiles
-- Démocratisation des écrans tactiles dans tous les secteurs :
-  - Commerce (caisses, bornes)
-  - Transport (billetterie, navigation)
-  - Éducation (tableaux interactifs)
-  - Santé (équipements médicaux)
+<ul class="space-y-6 text-xl"> 
+  <li>👉 <strong>5,3 milliards</strong> de smartphones utilisés dans le monde (2023) — c’est <strong>2 personnes sur 3</strong> 🌍</li> 
+  <li>👉 <strong>70%</strong> des recherches Google se font depuis un mobile 🔍</li> 
+  <li>👉 <strong>1ère source</strong> d’accès à Internet devant les ordinateurs 💻</li> 
+</ul>
 
 </div>
 <div>
 
-## Impact sur les comportements utilisateurs
+## Changement des habitudes
 
 <div class="mt-2">
   <div v-click class="flex items-center mb-3">
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:touch-1 class="text-xl text-white" />
     </div>
-    <div>Attente d'interactions intuitives et immédiates</div>
+    <div><strong>On veut tout, tout de suite</strong> <span class="text-sm">Ex : Commander un taxi en 2 clics 🚕</span></div>
   </div>
   
   <div v-click class="flex items-center mb-3">
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:mobile class="text-xl text-white" />
     </div>
-    <div>Usage en contexte de mobilité (multitâche, attention divisée)</div>
+    <div><strong>Des écrans qui s’adaptent à nous</strong> <span class="text-sm">Ex : Dark Mode automatique la nuit 🌙</span></div>
   </div>
   
   <div v-click class="flex items-center mb-3">
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:user-avatar class="text-xl text-white" />
     </div>
-    <div>Personnalisation et adaptation au contexte</div>
+    <div><strong>Nouveaux usages</strong> <span class="text-sm">Ex : Payer avec son téléphone, travailler en déplacement 💼</span> </div>
   </div>
   
-  <div v-click class="flex items-center">
-    <div class="bg-orange-500 p-1 rounded-full mr-3">
-      <carbon:chart-relationship class="text-xl text-white" />
-    </div>
-    <div>Nouvelles formes d'interactions sociales et professionnelles</div>
-  </div>
 </div>
 
 </div>
@@ -216,7 +209,7 @@ Cette généralisation influence fortement les comportements des utilisateurs. E
 layout: section
 ---
 
-# 02. Évolution historique des interfaces tactiles
+# <span class="text-4xl font-bold">02. Histoire des écrans tactiles</span>
 
 ---
 
@@ -289,15 +282,17 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 class: 'image-contain'
 ---
 
-# <span style="color: #2B90B6;" class="mt-8 block">L'évolution des technologies tactiles</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Comment ça marche ?</span>
 
 ## Technologies principales
 
-- **Résistif** : Pression physique, précision mais mono-touch
-- **Capacitif** : Conductivité électrique, multi-touch fluide
-- **Infrarouge** : Détection par faisceaux IR, fonctionne avec gants
-- **Ondes acoustiques** : Détection par ultrasons
-- **Reconnaissance optique** : Caméras et capteurs
+<ul class="space-y-5 text-lg mt-6">
+  <li><strong class="text-xl"><carbon:pressure-filled class="mt-1 mr-3 text-green-400"/>Résistif :</strong> Pression physique (On appuie sur l'écran)
+  <span class="text-sm">👉 Fonctionne par pression</span></li>
+  <li><strong class="text-xl"><carbon:touch-1-filled class="mt-1 mr-3 text-blue-400"/>Capacitif :</strong> Conductivité électrique (On touche l'écran avec le doigt)
+  <span class="text-sm">👉 Réagit au contact de la peau (comme un aimant invisible)</span></li>
+  <li><strong class="text-xl"><carbon:network-4 class="mt-1 mr-3 text-purple-400"/>Infrarouge :</strong> Détection par faisceaux IR, fonctionne avec gants <span class="text-sm">👉 comme un filet de lumière 🔦</span></li>
+</ul>
 
 <!--
 Les écrans résistifs répondent à la pression, tandis que les écrans capacitifs offrent un multi-touch fluide, et d'autres technologies, comme l'infrarouge, les ultrasons et la reconnaissance optique, enrichissent encore l'interaction tactile.
@@ -306,30 +301,31 @@ Les écrans résistifs répondent à la pression, tandis que les écrans capacit
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=format&fit=crop&q=80
-class: 'image-contain'
+class: 'items-center'
 ---
 
-# <span style="color: #2B90B6;" class="mt-8 block">Évolution des capacités</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Ce qui a changé</span>
 
-- Mono-touch → Multi-touch → 3D Touch/Force Touch
-- Précision accrue et latence réduite
-- Détection de pression variable
-- Haptic feedback (retour haptique)
-- Stylus et outils spécialisés
+<ul class="space-y-5 text-lg mt-6">
+  <li><carbon:user-speaker class="text-2xl mr-3 text-yellow-400"/>De 1 doigt → <strong>10 doigts</strong> <span class="text-sm">(Zoom, rotation, jeux 🎮)</span></li>
+  <li><carbon:music class="text-2xl mr-3 text-pink-400"/><strong>Retour haptique</strong><span class="text-sm">(Clavier qui "vibre" comme un vrai ⌨️)</span></li>
+  <li><carbon:pen class="text-2xl mr-3 text-green-400"/><strong>Stylus intelligents</strong><span class="text-sm">(Dessin précis, pression variable 🎨)</span></li>
+</ul>
 
 <!--
-Les écrans sont passés du mono-touch au multi-touch, puis au 3D Touch, avec une meilleure précision, une latence réduite et la détection de la pression. Le retour haptique et l’usage de stylets améliorent aussi l’expérience.
+Les écrans sont passés du mono-touch au multi-touch, puis au 3D Touch, avec une meilleure précision, une latence réduite et la détection de la pression. Le retour haptique et l'usage de stylets améliorent aussi l'expérience.
 -->
 
 ---
 layout: section
+class: flex items-center justify-center
 ---
 
-# 03. Principes fondamentaux des interfaces tactiles
+# <span class="text-4xl font-bold">03. Comment on utilise les écrans tactiles</span>
 
 ---
 
-# <span style="color: #2B90B6;">Principes d'interaction tactile</span>
+# <span style="color: #2B90B6;">Gestes de base</span>
 
 <div class="grid grid-cols-2 gap-8">
 <div>
@@ -343,7 +339,7 @@ layout: section
     </div>
     <div>
       <div class="font-bold">Tap (Toucher)</div>
-      <p class="text-xs">Équivalent du clic, action primaire</p>
+      <p class="text-xs">Équivalent du clic</p>
     </div>
   </div>
   
@@ -352,8 +348,8 @@ layout: section
       <carbon:pan-horizontal class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Swipe (Balayage)</div>
-      <p class="text-xs">Navigation, défilement, changement de page</p>
+      <div class="font-bold">Glisser</div>
+      <p class="text-xs">Pour se déplacer</p>
     </div>
   </div>
   
@@ -362,7 +358,7 @@ layout: section
       <carbon:zoom-in class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Pinch (Pincement)</div>
+      <div class="font-bold">Pincer</div>
       <p class="text-xs">Zoom avant/arrière, redimensionnement</p>
     </div>
   </div>
@@ -381,47 +377,35 @@ layout: section
 </div>
 <div>
 
-## Principes de conception
+## Comment c'est conçu
 
 <div class="mt-4">
   <div v-click class="flex items-start mb-4">
     <div class="bg-purple-600 p-1 rounded-full mr-3 mt-1">
       <carbon:touch-interaction class="text-lg text-white" />
     </div>
-    <div>
-      <div class="font-bold">Manipulation directe</div>
-      <p class="text-xs">Les objets répondent directement au toucher de manière prévisible</p>
-    </div>
+    <p class="text-xs">On touche directement les objets.</p>
   </div>
   
   <div v-click class="flex items-start mb-4">
     <div class="bg-purple-600 p-1 rounded-full mr-3 mt-1">
       <carbon:checkmark class="text-lg text-white" />
     </div>
-    <div>
-      <div class="font-bold">Feedback immédiat</div>
-      <p class="text-xs">Retour visuel, sonore ou haptique pour confirmer les actions</p>
-    </div>
+      <p class="text-xs">On voit tout de suite ce qui se passe.</p>
   </div>
   
   <div v-click class="flex items-start mb-4">
     <div class="bg-purple-600 p-1 rounded-full mr-3 mt-1">
       <carbon:idea class="text-lg text-white" />
     </div>
-    <div>
-      <div class="font-bold">Affordance</div>
-      <p class="text-xs">Indices visuels suggérant comment interagir avec l'interface</p>
-    </div>
+      <p class="text-xs">On comprend comment ça marche.</p>
   </div>
   
   <div v-click class="flex items-start">
     <div class="bg-purple-600 p-1 rounded-full mr-3 mt-1">
       <carbon:user-role class="text-lg text-white" />
     </div>
-    <div>
-      <div class="font-bold">Tolérance aux erreurs</div>
-      <p class="text-xs">Conception permettant d'éviter ou de corriger facilement les erreurs</p>
-    </div>
+      <p class="text-xs">On peut corriger les erreurs facilement.</p>
   </div>
 </div>
 
@@ -437,57 +421,53 @@ Les principes de conception d'une interface tactile reposent sur plusieurs élé
 
 ---
 
-# <span style="color: #2B90B6;">Modèles mentaux et métaphores</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Idées et fonctionnement</span>
 
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-2 gap-12 mt-8">
 <div>
 
 ## Métaphores d'interface
 
-- **Skeuomorphisme** : Imitation d'objets réels
-  - Ex: Notes ressemblant à un carnet papier
-  - Avantage: Familiarité immédiate
-  - Inconvénient: Limitations des objets physiques
-
-- **Design plat (Flat Design)** : Abstraction
-  - Formes simples, couleurs vives, typographie claire
-  - Avantage: Clarté, adaptabilité
-  - Inconvénient: Parfois moins intuitif
-
+<ul class="space-y-4 text-lg mt-6">
+  <li>On imite les objets réels (parfois)</li>
+  <li>On fait simple et clair</li>
+  <li>On utilise des images et des symboles faciles à comprendre</li>
+  <li>On fait comme les gens s'y attendent</li>
+</ul>
 
 </div>
 <div>
 
-## Principes cognitifs
+## Comment on pense quand on utilise un écran tactile
 
-<div class="mt-4">
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:idea class="text-lg text-white" />
+<div class="mt-6 space-y-6">
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:idea class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Charge cognitive réduite</div>
-      <p class="text-xs">Minimiser l'effort mental nécessaire pour utiliser l'interface</p>
+      <div class="font-bold text-xl">Simple :</div>
+      <p class="text-base">Moins on a à réfléchir, mieux c'est</p>
     </div>
   </div>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:chart-relationship class="text-lg text-white" />
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:chart-relationship class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Mapping naturel</div>
-      <p class="text-xs">Relation intuitive entre les contrôles et leurs effets</p>
+      <div class="font-bold text-xl">Logique :</div>
+      <p class="text-base">Les boutons font ce qu'on attend</p>
     </div>
   </div>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:user-avatar class="text-lg text-white" />
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:user-avatar class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Modèles mentaux cohérents</div>
-      <p class="text-xs">Correspondance avec la façon dont les utilisateurs pensent que le système fonctionne</p>
+      <div class="font-bold text-xl">Familier :</div>
+      <p class="text-base">Ça marche comme on l'imagine</p>
     </div>
   </div>
 </div>
@@ -496,49 +476,50 @@ Les principes de conception d'une interface tactile reposent sur plusieurs élé
 </div>
 
 <!--
-Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tandis que le design plat simplifie l’interface pour plus de clarté. Les interfaces efficaces réduisent la charge cognitive, utilisent un mapping naturel entre actions et effets, et respectent les modèles mentaux des utilisateurs.
+Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tandis que le design plat simplifie l'interface pour plus de clarté. Les interfaces efficaces réduisent la charge cognitive, utilisent un mapping naturel entre actions et effets, et respectent les modèles mentaux des utilisateurs.
 
 Definition:
-Le skeuomorphisme est un style de design qui imite l’apparence et les textures des objets réels pour faciliter l’usage numérique.
+Le skeuomorphisme est un style de design qui imite l'apparence et les textures des objets réels pour faciliter l'usage numérique.
 
-Les principes cognitifs essentiels à la réussite d’une interface. Il est important de réduire la charge cognitive, c’est-à-dire de minimiser l’effort mental nécessaire pour comprendre et utiliser l’interface. Le mapping naturel est également crucial, ce qui signifie que les contrôles doivent être liés de manière intuitive à leurs effets. Enfin, il faut que l’interface repose sur des modèles mentaux cohérents, en accord avec la manière dont les utilisateurs pensent que le système fonctionne. Ces principes permettent de créer une expérience utilisateur fluide et efficace.
+Les principes cognitifs essentiels à la réussite d'une interface. Il est important de réduire la charge cognitive, c'est-à-dire de minimiser l'effort mental nécessaire pour comprendre et utiliser l'interface. Le mapping naturel est également crucial, ce qui signifie que les contrôles doivent être liés de manière intuitive à leurs effets. Enfin, il faut que l'interface repose sur des modèles mentaux cohérents, en accord avec la manière dont les utilisateurs pensent que le système fonctionne. Ces principes permettent de créer une expérience utilisateur fluide et efficace.
 -->
 
 ---
 layout: section
+class: flex items-center justify-center
 ---
 
-# 04. Spécificités des Interfaces Mobiles
+# <span class="text-4xl font-bold">04. Ce qui est spécial sur mobile</span>
 
 ---
 layout: two-cols
 ---
 
-# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
+## <span style="color: #2B90B6;">Ce qui est difficile sur mobile</span>
 
 <div class="mr-6">
 
 ## Contraintes matérielles
 
-- **Taille d'écran limitée**
-  - Nécessite une hiérarchisation stricte de l'information
-  - Interfaces adaptatives et responsives
+- **Petit écran :**
+  - Il faut choisir ce qui est important
 
-- **Autonomie de batterie**
-  - Impact sur les choix d'interface (ex: mode sombre)
-  - Optimisation des animations et effets
+- **Batterie :**
+  - Il faut économiser l'énergie.
+
+- **Beaucoup de téléphones différents :**
+  - Il faut que ça marche partout.
+
+- **Pas toujours de réseau :**
+  - Il faut que ça marche sans internet.
 
 </div>
 
 ::right::
-# <span style="color: #2B90B6;" class="mt-40 block"></span>
-- **Variété des appareils**
-  - Fragmentation Android vs uniformité iOS
-  - Multiples résolutions et ratios d'écran
 
-- **Connectivité variable**
-  - Conception pour fonctionnement hors-ligne
-  - Gestion des états de synchronisation
+<div class="pl-4 pt-10">
+  <img src="https://thumbs.dreamstime.com/b/young-man-scans-qr-code-has-little-difficulty-d-render-illustration-347155109.jpg?w=768" class="rounded-lg shadow-xl" />
+</div>
 
 <!--
 Les interfaces mobiles doivent être conçues en tenant compte de plusieurs contraintes qui influencent tant le matériel que l’usage. Du côté matériel, la taille limitée de l’écran impose d'hiérarchiser l’information de manière stricte et de concevoir des interfaces adaptatives et responsives. L’autonomie de la batterie joue également un rôle important, car elle impacte les choix d’interface, comme l’activation d’un mode sombre, et nécessite l’optimisation des animations et des effets pour économiser l’énergie. Par ailleurs, la variété des appareils, avec la fragmentation d’Android face à l’uniformité d’iOS et les multiples résolutions et ratios d’écran, rend la conception plus complexe. La connectivité variable, quant à elle, oblige à prévoir des fonctionnalités de fonctionnement hors-ligne et à gérer efficacement les états de synchronisation.
@@ -548,41 +529,33 @@ Les interfaces mobiles doivent être conçues en tenant compte de plusieurs cont
 layout: two-cols
 ---
 
-# <span style="color: #2B90B6;">Contraintes des interfaces mobiles</span>
+# <span style="color: #2B90B6;">Contraintes d'usage</span>
 
 <div class="mr-6">
 
 <div class="pl-4">
 
-## Contraintes d'usage
+- **Utilisation en mouvement :**
+  - On ne fait pas toujours attention.
 
-- **Contexte d'utilisation variable**
-  - Environnements bruyants, lumineux, en mouvement
-  - Attention divisée et multitâche
+- **On utilise une seule main :**
+  - Il faut que ce soit facile à atteindre.
 
-- **Interaction à une main**
-  - Zones d'atteinte du pouce (thumb zone)
-  - Positionnement des éléments critiques
+- **Les doigts sont gros :**
+  - Il faut des boutons assez grands.
+
+- **On est souvent interrompu :**
+  - Il faut pouvoir reprendre facilement.
 
 </div>
 
 </div>
 
 ::right::
-
-<div class="pl-4">
-
-# <span style="color: #2B90B6;" class="mt-40 block"></span>
-
-- **Précision limitée**
-  - "Fat finger problem" (problème du doigt épais)
-  - Taille minimale des éléments interactifs (44px)
-
-- **Interruptions fréquentes**
-  - Notifications, appels, changements de contexte
-  - Sauvegarde d'état et reprise facile
-
+<div class="pl-4 pt-10">
+  <img src="https://assets.justinmind.com/wp-content/uploads/2020/01/what-is-mobile-app-usability-testing.png" class="rounded-lg shadow-xl" />
 </div>
+
 
 <!--
 Du côté de l’usage, le contexte d’utilisation des appareils mobiles est très variable. Les utilisateurs évoluent dans des environnements bruyants, lumineux ou en mouvement, ce qui les conduit à être souvent en multitâche avec une attention divisée. De plus, l’interaction se fait généralement à une main, ce qui nécessite de placer les éléments critiques dans la zone d’atteinte du pouce. La précision de l’interface est également limitée par le problème du « doigt épais », ce qui impose de respecter une taille minimale d’environ 44 pixels pour les éléments interactifs. Enfin, les interruptions fréquentes telles que les notifications, les appels ou les changements de contexte obligent à concevoir des interfaces capables de sauvegarder l’état et de permettre une reprise facile de l’activité.
@@ -590,139 +563,125 @@ Du côté de l’usage, le contexte d’utilisation des appareils mobiles est tr
 
 ---
 
-# <span style="color: #2B90B6;">Patterns de design mobile</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Comment on fait les interfaces mobiles</span>
 
-<div class="grid grid-cols-3 gap-4 mt-4">
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:menu class="text-2xl text-orange-400 inline-block" />
+<div class="grid grid-cols-3 gap-2 mt-2">
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:menu class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Navigation</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Tab Bar (iOS) / Bottom Navigation (Android)</li>
-      <li>Hamburger Menu</li>
-      <li>Navigation par gestes</li>
-      <li>Pull-to-refresh</li>
+    <div class="font-bold text-xl mb-2">Navigation</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>Barre en bas ou menu caché</li>
+      <li>On glisse pour changer de page</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:list-boxes class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:list-boxes class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Organisation du contenu</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Cards (cartes)</li>
-      <li>Listes infinies</li>
-      <li>Accordéons</li>
-      <li>Carrousels horizontaux</li>
+    <div class="font-bold text-xl mb-2">Organisation</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On met les informations dans des cartes</li>
+      <li>On fait défiler les listes</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:settings class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:settings class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold text-sm">Contrôles</div>
-    <ul class="text-xs mt-1 space-y-0.5">
-      <li>Floating Action Button (FAB)</li>
-      <li>Swipe actions</li>
-      <li>Toggle switches</li>
-      <li>Segmented controls</li>
+    <div class="font-bold text-xl mb-2">Boutons</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>Bouton rond pour les actions importantes</li>
+      <li>On glisse pour faire des actions</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:popup class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:popup class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Feedback</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Toasts / Snackbars</li>
-      <li>Skeleton screens</li>
-      <li>Pull-to-refresh indicators</li>
-      <li>Haptic feedback</li>
+    <div class="font-bold text-xl mb-2">Réactions</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On voit des messages courts</li>
+      <li>On sent des vibrations</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:text-link class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:text-link class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Entrée de données</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Claviers contextuels</li>
-      <li>Auto-complétion</li>
-      <li>Formulaires progressifs</li>
-      <li>Voice input</li>
+    <div class="font-bold text-xl mb-2">On écrit</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>Le clavier s'adapte à ce qu'on écrit</li>
+      <li>On propose des mots</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:chart-custom class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:chart-custom class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Transitions</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Animations fonctionnelles</li>
-      <li>Transitions entre écrans</li>
-      <li>Parallax scrolling</li>
-      <li>Micro-interactions</li>
+    <div class="font-bold text-xl mb-2">Animations</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On fait des transitions douces</li>
+      <li>On anime les changements d'état</li>
     </ul>
   </div>
 </div>
 
 <!--
-Les patterns de design mobile facilitent l’expérience utilisateur en structurant la navigation, l’organisation du contenu et les interactions. Ils incluent des éléments comme la navigation gestuelle, les cartes pour afficher l’information, les boutons flottants pour les actions rapides, ainsi que des retours visuels et haptiques pour améliorer l’intuitivité.
+Les patterns de design mobile facilitent l'expérience utilisateur en structurant la navigation, l'organisation du contenu et les interactions. Ils incluent des éléments comme la navigation gestuelle, les cartes pour afficher l'information, les boutons flottants pour les actions rapides, ainsi que des retours visuels et haptiques pour améliorer l'intuitivité.
 
-Navigation gestuelle : Permet d’interagir sans boutons grâce aux gestes.
+Navigation gestuelle : Permet d'interagir sans boutons grâce aux gestes.
 Cartes (Cards UI) : Présente les informations sous forme de blocs clairs et modulables.
-Bouton d’action flottant (FAB) : Offre un accès rapide aux actions principales.
+Bouton d'action flottant (FAB) : Offre un accès rapide aux actions principales.
 Retours visuels et haptiques : Fournit des indications via animations et vibrations.
-Hiérarchie de l’information : Organise le contenu pour une lecture fluide.
-Dark Mode et adaptabilité : Améliore le confort visuel et économise l’énergie.
+Hiérarchie de l'information : Organise le contenu pour une lecture fluide.
+Dark Mode et adaptabilité : Améliore le confort visuel et économise l'énergie.
 -->
 
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&auto=format&fit=crop&q=80
-class: 'image-contain'
+class: 'image-contain pt-20'
 ---
 
-# <span style="color: #2B90B6;">Systèmes d'exploitation mobiles</span>
-
-## iOS vs Android
+# <span style="color: #2B90B6;">iOS ou Android ?</span>
 
 <div class="mt-4 space-y-4">
   <div>
-    <div class="font-bold text-orange-400">Philosophies de design</div>
+    <div class="font-bold text-orange-400">Design :</div>
     <ul class="text-xs mt-1">
-      <li>iOS: Human Interface Guidelines - Clarté, déférence, profondeur</li>
-      <li>Android: Material Design - Matérialité, audace, mouvement, réactivité</li>
+      <li>iOS : Simple et élégant</li>
+      <li>Android : Animé et réactif.</li>
     </ul>
   </div>
   
   <div>
-    <div class="font-bold text-orange-400">Navigation</div>
+    <div class="font-bold text-orange-400">Navigation :</div>
     <ul class="text-xs mt-1">
-      <li>iOS: Hiérarchique, tab bars, swipe back</li>
-      <li>Android: Back button, navigation drawer, bottom navigation</li>
+      <li>iOS : On glisse pour revenir en arrière.</li>
+      <li>Android : Bouton retour et menu caché.</li>
     </ul>
   </div>
   
   <div>
-    <div class="font-bold text-orange-400">Composants natifs</div>
+    <div class="font-bold text-orange-400">Boutons :</div>
     <ul class="text-xs mt-1">
-      <li>iOS: Action Sheets, Activity Views, Pickers</li>
-      <li>Android: Bottom Sheets, Floating Action Button, Snackbars</li>
+      <li>iOS : Différents types de boutons.</li>
+      <li>Android : Bouton rond pour les actions importantes.</li>
     </ul>
   </div>
   
   <div>
-    <div class="font-bold text-orange-400">Adaptabilité</div>
+    <div class="font-bold text-orange-400">Adaptation :</div>
     <ul class="text-xs mt-1">
-      <li>iOS: Environnement plus contrôlé, moins de fragmentation</li>
-      <li>Android: Grande variété d'appareils, plus de contraintes d'adaptation</li>
+      <li>iOS : Marche sur tous les appareils Apple.</li>
+      <li>Android : Marche sur beaucoup de téléphones différents.</li>
     </ul>
   </div>
 </div>
@@ -746,79 +705,58 @@ Enfin, iOS fonctionne dans un environnement très contrôlé avec peu de fragmen
 layout: section
 ---
 
-# 05. Design et ergonomie de ces interfaces
-
+# <span class="text-4xl font-bold">05. Comment faire des interfaces tactiles faciles à utiliser</span>
+---
+layout: two-cols
 ---
 
-## <span style="color: #2B90B6;">Principes d'ergonomie tactile</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Ce qu'il faut faire</span>
 
-<div class="grid grid-cols-2 gap-6">
-<div>
+<div class="mr-10">
 
-### Taille et espacement
-
-- **Taille minimale des cibles tactiles**
-  - Apple: 44×44 points
-  - Google: 48×48 dp (density-independent pixels)
-
-- **Espacement entre éléments**
-  - Minimum 8px pour éviter les erreurs de toucher
-  - Zones critiques: prévoir 12px ou plus
-
-- **Zones d'atteinte du pouce**
-  - Zone verte: facile d'accès
-  - Zone jaune: accessible avec étirement
+<ul class="space-y-4 text-lg">
+  <li><strong class="text-xl">Boutons assez grands</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour que les doigts puissent les toucher facilement</li>
+      <li>Minimum 44×44 points (iOS) ou 48×48 dp (Android)</li>
+    </ul>
+  </li>
+  <li><strong class="text-xl">Assez d'espace entre les boutons</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour ne pas se tromper</li>
+      <li>Au moins 8-12 pixels d'espacement</li>
+    </ul>
+  </li>
+</ul>
 
 </div>
-<div>
 
-### Feedback et réactivité
+::right::
 
-<div class="mt-4">
-  <div class="flex items-start mb-4">
-    <div class="bg-green-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:time class="text-lg text-white" />
-    </div>
-    <div>
-      <div class="font-bold">Temps de réponse</div>
-      <p class="text-xs">
-        < 100ms: Sensation d'instantanéité<br>
-        < 300ms: Perçu comme fluide<br>
-        > 1s: Feedback de progression nécessaire
-      </p>
-    </div>
-  </div>
+<div class="pl-8">
+
+<ul class="space-y-4 text-lg">
+  <li><strong class="text-xl">Réaction rapide</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Quand on touche, il faut que ça réagisse vite</li>
+      <li>Moins de 100ms pour une expérience fluide</li>
+    </ul>
+  </li>
+  <li><strong class="text-xl">On voit ce qui se passe</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Des couleurs qui changent, des petites animations</li>
+      <li>Confirmation visuelle des actions</li>
+    </ul>
+  </li>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-green-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:view-filled class="text-lg text-white" />
-    </div>
-    <div>
-      <div class="font-bold">Feedback visuel</div>
-      <p class="text-xs">
-        États visuels clairs (pressed, active, disabled)<br>
-        Animations fonctionnelles >
-        Indicateurs de progression
-      </p>
-    </div>
-  </div>
-  
-  <div class="flex items-start">
-    <div class="bg-green-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:touch-1 class="text-lg text-white" />
-    </div>
-    <div>
-      <div class="font-bold">Feedback tactile</div>
-      <p class="text-xs">
-        Vibrations subtiles (haptic feedback) >
-        Patterns haptiques différenciés selon l'action<br>
-        Complémentaire au feedback visuel
-      </p>
-    </div>
-  </div>
-</div>
+  <li><strong class="text-xl">On sent des vibrations</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour confirmer qu'on a bien touché</li>
+      <li>Retour haptique subtil et significatif</li>
+    </ul>
+  </li>
+</ul>
 
-</div>
 </div>
 
 <!--
@@ -835,30 +773,29 @@ Enfin, le feedback tactile, comme les vibrations subtiles (haptic feedback), aid
 
 ---
 
-## <span style="color: #2B90B6;">Accessibilité des interfaces tactiles</span>
+## <span style="color: #2B90B6;">Pour que tout le monde puisse utiliser</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
 ## Défis spécifiques
 
-- **Déficiences visuelles**
-  - Contraste insuffisant sur écrans brillants
-  - Taille de texte trop petite
+- **Pour les personnes qui ne voient pas bien :**
+  - Gros textes, couleurs contrastées.
+  - On peut écouter ce qu'il y a sur l'écran.
 
-- **Déficiences motrices**
-  - Précision du toucher limitée
-  - Gestes complexes difficiles à réaliser
-  - Fatigue lors d'interactions prolongées
+- **Pour les personnes qui ont du mal à bouger :**
+  - Boutons plus gros, gestes simples.
+  - On peut utiliser des commandes spéciales.
 
-- **Déficiences cognitives**
-  - Interfaces surchargées
-  - Gestes non-standards difficiles à mémoriser
+- **Pour les personnes qui ont du mal à comprendre :**
+  - Écrans simples, pas trop de boutons.
+  - On fait comme les gens s'y attendent.
 
 </div>
 <div>
 
-## Solutions d'accessibilité
+## Comment on fait
 
 <div class="mt-4">
   <div class="flex items-start mb-4">
@@ -866,7 +803,7 @@ Enfin, le feedback tactile, comme les vibrations subtiles (haptic feedback), aid
       <carbon:accessibility class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Fonctionnalités natives</div>
+      <div class="font-bold">On teste avec des personnes qui ont des difficultés.</div>
       <p class="text-xs">
         VoiceOver (iOS) / TalkBack (Android)<br>
         Zoom d'écran et loupe<br>
@@ -881,7 +818,7 @@ Enfin, le feedback tactile, comme les vibrations subtiles (haptic feedback), aid
       <carbon:development class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Bonnes pratiques de développement</div>
+      <div class="font-bold">On utilise les outils intégrés aux téléphones.</div>
       <p class="text-xs">
         Étiquettes d'accessibilité pour tous les éléments<br>
         Ordre de navigation logique<br>
@@ -907,30 +844,24 @@ Les développeurs peuvent aussi appliquer de bonnes pratiques pour améliorer l'
 
 ---
 
-#### <span style="color: #2B90B6;">Design responsive et adaptatif</span>
+## <span style="color: #2B90B6;" class="pb-20">Pour que ça marche sur tous les écrans</span>
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-#### Approches de conception
+- **On pense d'abord aux petits écrans :**
+  - Et on ajoute des choses pour les grands écrans.
 
-- **Mobile-first**
-  - Conception prioritaire pour petits écrans
-  - Ajout progressif de fonctionnalités
+- **Ça s'adapte automatiquement :**
+  - Les images et les textes changent de taille.
 
-- **Responsive Web Design**
-  - Adaptation fluide à toutes tailles d'écran
-  - Media queries CSS
-
-- **Adaptive Design**
-  - Versions distinctes pour différents appareils
-  - Détection côté serveur
-  - Optimisation spécifique par plateforme
+- **On fait des versions différentes :**
+  - Pour les téléphones et les tablettes.
 
 </div>
 <div>
 
-#### Techniques d'implémentation
+#### Comment on fait
 
 <div class="mt-4">
   <div class="flex items-start mb-4">
@@ -938,7 +869,7 @@ Les développeurs peuvent aussi appliquer de bonnes pratiques pour améliorer l'
       <carbon:grid class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Systèmes de grille flexible</div>
+      <div class="font-bold">On utilise des techniques spéciales pour que les images s'adaptent.</div>
       <p class="text-xs">
         - Grilles à 12 colonnes<br>
         - Unités relatives (%, em, rem, vh/vw)<br>
@@ -947,26 +878,13 @@ Les développeurs peuvent aussi appliquer de bonnes pratiques pour améliorer l'
     </div>
   </div>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:image class="text-lg text-white" />
-    </div>
-    <div>
-      <div class="font-bold">Images responsives</div>
-      <p class="text-xs">
-        - srcset et sizes attributes<br>
-        - picture element<br>
-        - Images vectorielles (SVG)
-      </p>
-    </div>
-  </div>
   
   <div class="flex items-start">
     <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
       <carbon:application-web class="text-lg text-white" />
     </div>
     <div>
-      <div class="font-bold">Patterns de navigation adaptative</div>
+      <div class="font-bold">On change la façon dont les menus s'affichent.</div>
       <p class="text-xs">
         - Off-canvas navigation<br>
         - Priority+ pattern<br>
@@ -993,52 +911,36 @@ En adoptant ces principes, le design responsive et adaptatif assure une navigati
 layout: section
 ---
 
-# 06. Tendances et innovations - Vers quel futur ?
+# <span class="text-4xl font-bold">06. Le futur des écrans tactiles</span>
+
 
 ---
 layout: two-cols
 ---
 
-# <span style="color: #2B90B6;">Tendances actuelles</span>
+## <span style="color: #2B90B6;">Ce qui change maintenant</span>
 
 <div class="mr-6">
 
-### Design minimaliste et fonctionnel
+- **Plus simple :**
+  - Moins de boutons, plus de gestes.
 
-- **Réduction des éléments d'interface**
-  - Focus sur le contenu et les tâches
-  - Élimination des décorations superflues
+- **Mode sombre :**
+  - Moins de fatigue pour les yeux.
 
-- **Gestural interfaces**
-  - Navigation par gestes (swipe, pinch)
-  - Réduction des boutons visibles
+- **Adapté à chacun :**
+  - L'écran s'adapte à ce qu'on fait.
 
-- **Dark mode & économie d'énergie**
-  - Réduction de la fatigue oculaire
-  - Prolongation de l'autonomie des écrans OLED
+- **Petites animations :**
+  - Pour rendre l'utilisation plus agréable.
+
 
 </div>
 
 ::right::
 
-<div class="pl-4">
-
-### Personnalisation et contextualisation
-
-- **Interfaces adaptatives**
-  - Adaptation au contexte d'utilisation
-  - Apprentissage des préférences utilisateur
-  - Prédiction des besoins
-
-- **Micro-interactions**
-  - Animations subtiles et fonctionnelles
-  - Renforcement du feedback
-  - Création d'une expérience plus engageante
-
-- **Design systems**
-  - Cohérence cross-platform
-  - Composants réutilisables
-
+<div class="pl-4 pt-10">
+  <img src="https://s43829.pcdn.co/wp-content/uploads/2018/09/Change.jpg" class="rounded-lg shadow-xl" />
 </div>
 
 <!--
@@ -1062,7 +964,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">Réalité augmentée (AR)</div>
     <p class="text-xs mt-1">
-      Superposition d'éléments virtuels au monde réel via l'écran tactile. Applications: navigation, éducation, shopping, jeux.
+      On voit des choses virtuelles dans le monde réel.
       <span class="text-xs mt-1 text-orange-300">(Ex: ARKit (Apple), ARCore (Google), Snapchat Lenses)</span>
     </p>
   </div>
@@ -1073,7 +975,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">Interfaces vocales</div>
     <p class="text-xs mt-1">
-      Combinaison du tactile et de la voix pour une interaction multimodale plus naturelle et accessible.
+      On parle à l'écran : Pour faire des actions.
       <span class="text-xs mt-1 text-orange-300">(Ex: Siri, Google Assistant, commandes vocales dans les apps)</span>
     </p>
   </div>
@@ -1084,7 +986,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">Reconnaissance faciale et gestuelle</div>
     <p class="text-xs mt-1">
-      Détection des expressions et mouvements pour enrichir l'interaction sans contact direct.
+      L'écran nous reconnaît : Visage, gestes.
       <span class="text-xs mt-1 text-orange-300">(Ex: Face ID, Samsung Air Gestures, contrôles par regard)</span>
     </p>
   </div>
@@ -1095,7 +997,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">Interfaces haptiques avancées</div>
     <p class="text-xs mt-1">
-      Retour tactile sophistiqué simulant différentes textures et sensations sur écrans plats.
+      *On sent des textures : Sur l'écran.
       <span class="text-xs mt-1 text-orange-300">(Ex: Apple Taptic Engine, retour haptique ultrasonique)</span>
     </p>
   </div>
@@ -1106,7 +1008,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">IA et interfaces adaptatives</div>
     <p class="text-xs mt-1">
-      Interfaces qui apprennent et s'adaptent au comportement de l'utilisateur et au contexte.
+      L'écran apprend de nous : Pour mieux nous aider.
       <span class="text-xs mt-1 text-orange-300">(Ex: Suggestions contextuelles, UI qui se réorganise selon l'usage)</span>
     </p>
   </div>
@@ -1117,7 +1019,7 @@ En combinant minimalisme, adaptabilité et cohérence, ces tendances modernes vi
     </div>
     <div class="font-bold">Écrans flexibles et pliables</div>
     <p class="text-xs mt-1">
-      Nouveaux facteurs de forme permettant de nouvelles interactions et usages.
+      Écrans pliables : Pour de nouvelles façons d'utiliser.
       <span class="text-xs mt-1 text-orange-300">(Ex: Samsung Galaxy Fold, Huawei Mate X, concepts d'écrans enroulables)</span>
     </p>
   </div>
@@ -1149,17 +1051,14 @@ class: 'image-contain'
 
 # <span style="color: #2B90B6;" class="mt-7 block">Défis actuels</span>
 
-- **Équilibre entre simplicité et fonctionnalité**
-  - Interfaces minimalistes vs fonctionnalités avancées
-  - "Progressive disclosure" (révélation progressive)
+- **Faire simple mais complet :**
+  - Ne pas mettre trop de boutons, mais tout ce qu'il faut.
 
-- **Fragmentation des plateformes**
-  - Multiplication des OS et versions
-  - Diversité des tailles d'écran et capacités
+- **Que ça marche sur tous les téléphones :**
+  - Il y en a beaucoup de différents.
 
-- **Vie privée et sécurité**
-  - Collecte de données contextuelles
-  - Authentification biométrique
+- **Protéger les informations personnelles :**
+  - Surtout quand on utilise le visage ou les empreintes.
 
 <!--
 Les interfaces tactiles modernes font face à plusieurs défis majeurs.
@@ -1179,14 +1078,13 @@ image: https://images.unsplash.com/photo-1523324761162-d261f3f30ab1?w=400&auto=f
 class: 'image-contain'
 ---
 
-# <span style="color: #2B90B6;">Défis et perspectives</span>
+# <span style="color: #2B90B6;">Ce qu'on imagine pour le futur</span>
 
-## <span class="mb-7 block">Perspectives d'avenir</span>
 
-- Interfaces "sans interface" (Zero UI)
-- Fusion du physique et du numérique
-- Démocratisation des interfaces cerveau-machine
-- Expériences multi-sensorielles
+- **Plus besoin de toucher l'écran :** On parle, on fait des gestes.
+- **Le monde réel et le monde virtuel ensemble :** Avec la réalité augmentée.
+- **On contrôle avec la pensée :** Grâce aux interfaces cerveau-machine.
+- **On utilise tous nos sens :** Pas seulement le toucher, mais aussi l'odorat.
 
 <!--
 Les perspectives d'avenir des interfaces tactiles incluent les interfaces "sans interface" (Zero UI), qui permettent une interaction sans écran, utilisant la voix ou les gestes. Il y a aussi la fusion du physique et du numérique grâce à la réalité augmentée, permettant d'interagir avec des objets virtuels dans le monde réel. Les interfaces cerveau-machine deviennent de plus en plus présentes, offrant la possibilité de contrôler des appareils par la pensée, ce qui permet une interaction plus rapide et accessible. Enfin, les expériences multi-sensorielles, qui combinent plusieurs sens comme le toucher et l'odorat, visent à rendre l'expérience utilisateur encore plus immersive.
@@ -1197,21 +1095,22 @@ layout: center
 class: text-center
 ---
 
-# <span style="color: #2B90B6;">Merci de votre attention !</span>
+# <span class="text-4xl font-bold text-[#2B90B6] mb-8 block">Merci de votre attention !</span>
 
-<div class="text-lg text-orange-400 mt-4">Des questions ?</div>
+<div class="text-2xl text-orange-400 mt-8 mb-12">Des questions ?</div>
 
-<div class="pt-10 text-sm">
-  <div class="bg-gray-800 bg-opacity-50 px-4 py-2 rounded-lg inline-block">
-    Présenté par ANDRÉ SARR
+<div class="pt-12">
+  <div class="bg-gray-800 bg-opacity-70 px-6 py-3 rounded-xl shadow-lg inline-block">
+    <span class="text-xl">Présenté par ANDRÉ SARR</span>
   </div>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/Anonymous1223334444" target="_blank" alt="GitHub" class="text-xl opacity-50 !border-none !hover:text-white">
+<div class="abs-br m-8 flex gap-3">
+  <a href="https://github.com/Anonymous1223334444" target="_blank" rel="noopener noreferrer" class="text-2xl opacity-70 hover:opacity-100 hover:text-white transition-opacity">
     <carbon-logo-github />
   </a>
 </div>
+
 
 <!--
 En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la transformation de notre interaction avec le numérique, en offrant des expériences plus directes, intuitives et adaptées à notre mode de vie moderne.
