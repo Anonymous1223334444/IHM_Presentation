@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1920&auto=format&fit=crop
+background: https://i.pinimg.com/736x/b3/04/5e/b3045e4134f98a0556b44a885fad2bdc.jpg
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
@@ -40,44 +40,43 @@ layout: center
 class: text-center
 ---
 
-# <span style="color: #2B90B6;">Au programme</span>
+# <span class="text-3xl font-bold text-[#2B90B6]">Au programme</span>
 
-
-<div class="grid grid-cols-3 gap-6 mt-8">
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">01</div>
-    <div class="text-xl font-bold">Introduction</div>
-    <div class="text-xs opacity-80">Qu'est-ce que les interfaces tactiles et mobiles ?</div>
+<div class="grid grid-cols-3 gap-8 mt-12 max-w-5xl mx-auto">
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">01</div>
+    <div class="text-2xl font-bold mb-2">Introduction</div>
+    <div class="text-base opacity-90">Qu'est-ce que les interfaces tactiles et mobiles ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">02</div>
-    <div class="text-xl font-bold">Histoire</div>
-    <div class="text-xs opacity-80">Comment ont-elles évolué ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">02</div>
+    <div class="text-2xl font-bold mb-2">Histoire</div>
+    <div class="text-base opacity-90">Comment ont-elles évolué ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">03</div>
-    <div class="text-xl font-bold">Principes</div>
-    <div class="text-xs opacity-80">Comment ça marche ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">03</div>
+    <div class="text-2xl font-bold mb-2">Principes</div>
+    <div class="text-base opacity-90">Comment ça marche ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">04</div>
-    <div class="text-xl font-bold">Spécificités mobiles</div>
-    <div class="text-xs opacity-80">Qu'est-ce qui est unique aux mobiles ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">04</div>
+    <div class="text-2xl font-bold mb-2">Spécificités mobiles</div>
+    <div class="text-base opacity-90">Qu'est-ce qui est unique aux mobiles ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">05</div>
-    <div class="text-xl font-bold">Design et utilisation</div>
-    <div class="text-xs opacity-80">Comment les rendre faciles à utiliser ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">05</div>
+    <div class="text-2xl font-bold mb-2">Design et utilisation</div>
+    <div class="text-base opacity-90">Comment les rendre faciles à utiliser ?</div>
   </div>
   
-  <div class="bg-purple-900 bg-opacity-50 p-4 rounded-lg">
-    <div class="text-3xl font-bold">06</div>
-    <div class="text-xl font-bold">Le futur</div>
-    <div class="text-xs opacity-80">Quelles sont les prochaines étapes ?</div>
+  <div class="bg-purple-900 bg-opacity-60 p-6 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-4xl font-bold mb-2">06</div>
+    <div class="text-2xl font-bold mb-2">Le futur</div>
+    <div class="text-base opacity-90">Quelles sont les prochaines étapes ?</div>
   </div>
 </div>
 
@@ -92,72 +91,80 @@ Chaque section vous apportera un éclairage complémentaire, nous permettant de 
 layout: section
 ---
 
-# 01. Introduction : Tactile et Mobile
+# <span class="text-4xl font-bold">01. Introduction : Tactile et Mobile</span>
 
 ---
 layout: two-cols
+class: items-center
 ---
 
-# <span style="color: #2B90B6;">Définition et Contexte</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Définition et Contexte</span>
 
-
-<div class="mr-8">
+<div class="mr-10">
 
 ## Interfaces Tactiles
 
-* Interaction directe avec l'écran.
-* On utilise le toucher, pas de souris ni clavier.
-* Plus naturel et facile à utiliser.
-
+<ul class="space-y-4 text-lg mt-6">
+  <li>Interaction directe avec l'écran</li>
+  <li>On utilise le toucher, pas de souris ni clavier</li>
+  <li>Plus naturel et facile à utiliser</li>
+</ul>
 
 </div>
 
 ::right::
 
-<div class="pl-4 pt-10">
-  <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-lg shadow-xl" />
+<div class="pl-8 flex items-center justify-center h-full">
+  <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=600&auto=format&fit=crop&q=80" class="rounded-xl shadow-2xl max-h-[60vh] object-cover" />
 </div>
 
 <!--
-Les interfaces tactiles permettent une interaction directe, en éliminant le besoin de périphériques intermédiaires comme la souris ou le clavier, rendant l’expérience utilisateur plus intuitive et naturelle.
+Les interfaces tactiles permettent une interaction directe, en éliminant le besoin de périphériques intermédiaires comme la souris ou le clavier, rendant l'expérience utilisateur plus intuitive et naturelle.
 -->
 
 ---
 layout: two-cols
+class: items-center
 ---
 
-# <span style="color: #2B90B6;">Définition et Contexte</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Définition et Contexte</span>
 
-<div class="mr-8">
+<div class="mr-10">
 
 ## Interfaces Mobiles
 
-* Pour les appareils que l'on emporte partout.
-* Adaptées aux petits écrans et à l'utilisation en mouvement.
-* exemple: Téléphone, tablette, montre connectée.
+<ul class="space-y-4 text-lg mt-6">
+  <li>Pour les appareils que l'on emporte partout</li>
+  <li>Adaptées aux petits écrans et à l'utilisation en mouvement</li>
+  <li>Exemples : téléphone, tablette, montre connectée</li>
+</ul>
+
 </div>
 
 ::right::
 
-<div class="pl-4 pt-10">
-  <img src="https://plus.unsplash.com/premium_photo-1712761996875-3057cee4f6af?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGUlMjB3YXRjaCUyMHZzJTIwc21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" />
+<div class="pl-8 flex items-center justify-center h-full">
+  <img src="https://plus.unsplash.com/premium_photo-1712761996875-3057cee4f6af?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGUlMjB3YXRjaCUyMHZzJTIwc21hcnRwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" class="rounded-xl shadow-2xl max-h-[60vh] object-cover" />
 </div>
 
 <!--
-Les interfaces mobiles, quant à elles, sont spécialement conçues pour les appareils portables, prenant en compte des contraintes telles que la taille réduite de l’écran et l’autonomie de la batterie.
+Les interfaces mobiles, quant à elles, sont spécialement conçues pour les appareils portables, prenant en compte des contraintes telles que la taille réduite de l'écran et l'autonomie de la batterie.
 -->
 
 ---
+class: px-10
+---
 
-# <span style="color: #2B90B6;">Pourquoi c'est important ?</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Pourquoi c'est important ?</span>
 
-
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-12 mt-8">
 <div>
 
-- **5,3 milliards** d'utilisateurs de smartphones dans le monde en 2023
-- **70%** du trafic internet mondial provient des appareils mobiles
-- **Partout :** Dans les magasins, les transports, l'école, etc.
+<ul class="space-y-6 text-xl">
+  <li><span class="font-bold text-2xl">5,3 milliards</span> d'utilisateurs de smartphones dans le monde en 2023</li>
+  <li><span class="font-bold text-2xl">70%</span> du trafic internet mondial provient des appareils mobiles</li>
+  <li><span class="font-bold text-2xl">Partout :</span> Dans les magasins, les transports, l'école, etc.</li>
+</ul>
 
 </div>
 <div>
@@ -274,14 +281,16 @@ image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=f
 class: 'image-contain'
 ---
 
-# <span style="color: #2B90B6;" class="mt-8 block">Comment ça marche ?</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Comment ça marche ?</span>
 
 ## Technologies principales
 
-- **Résistif** : Pression physique (On appuie sur l'écran)
-- **Capacitif** : Conductivité électrique (On touche l'écran avec le doigt)
-- **Infrarouge** : Détection par faisceaux IR (Des rayons détectent le toucher), fonctionne avec gants
-- **Autres :** Ultrasons, caméras...
+<ul class="space-y-5 text-lg mt-6">
+  <li><strong class="text-xl">Résistif :</strong> Pression physique (On appuie sur l'écran)</li>
+  <li><strong class="text-xl">Capacitif :</strong> Conductivité électrique (On touche l'écran avec le doigt)</li>
+  <li><strong class="text-xl">Infrarouge :</strong> Détection par faisceaux IR (Des rayons détectent le toucher), fonctionne avec gants</li>
+  <li><strong class="text-xl">Autres :</strong> Ultrasons, caméras...</li>
+</ul>
 
 <!--
 Les écrans résistifs répondent à la pression, tandis que les écrans capacitifs offrent un multi-touch fluide, et d'autres technologies, comme l'infrarouge, les ultrasons et la reconnaissance optique, enrichissent encore l'interaction tactile.
@@ -290,25 +299,28 @@ Les écrans résistifs répondent à la pression, tandis que les écrans capacit
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?w=800&auto=format&fit=crop&q=80
-class: 'image-contain pl-4 pt-20'
+class: 'items-center'
 ---
 
-# <span style="color: #2B90B6;">Ce qui a changé</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Ce qui a changé</span>
 
-- D'abord, un seul doigt, puis plusieurs.
-- Plus précis et plus rapide.
-- On peut sentir les vibrations (haptique).
-- On peut utiliser des stylos.
+<ul class="space-y-5 text-lg mt-6">
+  <li>D'abord, un seul doigt, puis plusieurs</li>
+  <li>Plus précis et plus rapide</li>
+  <li>On peut sentir les vibrations (haptique)</li>
+  <li>On peut utiliser des stylos</li>
+</ul>
 
 <!--
-Les écrans sont passés du mono-touch au multi-touch, puis au 3D Touch, avec une meilleure précision, une latence réduite et la détection de la pression. Le retour haptique et l’usage de stylets améliorent aussi l’expérience.
+Les écrans sont passés du mono-touch au multi-touch, puis au 3D Touch, avec une meilleure précision, une latence réduite et la détection de la pression. Le retour haptique et l'usage de stylets améliorent aussi l'expérience.
 -->
 
 ---
 layout: section
+class: flex items-center justify-center
 ---
 
-# 03. Comment on utilise les écrans tactiles
+# <span class="text-4xl font-bold">03. Comment on utilise les écrans tactiles</span>
 
 ---
 
@@ -408,55 +420,53 @@ Les principes de conception d'une interface tactile reposent sur plusieurs élé
 
 ---
 
-# <span style="color: #2B90B6;">Idées et fonctionnement</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Idées et fonctionnement</span>
 
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-2 gap-12 mt-8">
 <div>
 
 ## Métaphores d'interface
 
-- On imite les objets réels (parfois)
-
-- On fait simple et clair.
-
-- On utilise des images et des symboles faciles à comprendre.
-
-- On fait comme les gens s'y attendent.
-
+<ul class="space-y-4 text-lg mt-6">
+  <li>On imite les objets réels (parfois)</li>
+  <li>On fait simple et clair</li>
+  <li>On utilise des images et des symboles faciles à comprendre</li>
+  <li>On fait comme les gens s'y attendent</li>
+</ul>
 
 </div>
 <div>
 
 ## Comment on pense quand on utilise un écran tactile
 
-<div class="mt-4">
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:idea class="text-lg text-white" />
+<div class="mt-6 space-y-6">
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:idea class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Simple :</div>
-      <p class="text-xs">Moins on a à réfléchir, mieux c'est</p>
+      <div class="font-bold text-xl">Simple :</div>
+      <p class="text-base">Moins on a à réfléchir, mieux c'est</p>
     </div>
   </div>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:chart-relationship class="text-lg text-white" />
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:chart-relationship class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Logique :</div>
-      <p class="text-xs">Les boutons font ce qu'on attend</p>
+      <div class="font-bold text-xl">Logique :</div>
+      <p class="text-base">Les boutons font ce qu'on attend</p>
     </div>
   </div>
   
-  <div class="flex items-start mb-4">
-    <div class="bg-blue-500 p-1 rounded-full mr-3 mt-1">
-      <carbon:user-avatar class="text-lg text-white" />
+  <div class="flex items-start gap-4">
+    <div class="bg-blue-500 p-3 rounded-full mt-1 flex items-center justify-center">
+      <carbon:user-avatar class="text-xl text-white" />
     </div>
     <div>
-      <div class="font-bold">Familier :</div>
-      <p class="text-xs">Ça marche comme on l'imagine.</p>
+      <div class="font-bold text-xl">Familier :</div>
+      <p class="text-base">Ça marche comme on l'imagine</p>
     </div>
   </div>
 </div>
@@ -465,25 +475,26 @@ Les principes de conception d'une interface tactile reposent sur plusieurs élé
 </div>
 
 <!--
-Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tandis que le design plat simplifie l’interface pour plus de clarté. Les interfaces efficaces réduisent la charge cognitive, utilisent un mapping naturel entre actions et effets, et respectent les modèles mentaux des utilisateurs.
+Le skeuomorphisme imite des objets réels pour une prise en main intuitive, tandis que le design plat simplifie l'interface pour plus de clarté. Les interfaces efficaces réduisent la charge cognitive, utilisent un mapping naturel entre actions et effets, et respectent les modèles mentaux des utilisateurs.
 
 Definition:
-Le skeuomorphisme est un style de design qui imite l’apparence et les textures des objets réels pour faciliter l’usage numérique.
+Le skeuomorphisme est un style de design qui imite l'apparence et les textures des objets réels pour faciliter l'usage numérique.
 
-Les principes cognitifs essentiels à la réussite d’une interface. Il est important de réduire la charge cognitive, c’est-à-dire de minimiser l’effort mental nécessaire pour comprendre et utiliser l’interface. Le mapping naturel est également crucial, ce qui signifie que les contrôles doivent être liés de manière intuitive à leurs effets. Enfin, il faut que l’interface repose sur des modèles mentaux cohérents, en accord avec la manière dont les utilisateurs pensent que le système fonctionne. Ces principes permettent de créer une expérience utilisateur fluide et efficace.
+Les principes cognitifs essentiels à la réussite d'une interface. Il est important de réduire la charge cognitive, c'est-à-dire de minimiser l'effort mental nécessaire pour comprendre et utiliser l'interface. Le mapping naturel est également crucial, ce qui signifie que les contrôles doivent être liés de manière intuitive à leurs effets. Enfin, il faut que l'interface repose sur des modèles mentaux cohérents, en accord avec la manière dont les utilisateurs pensent que le système fonctionne. Ces principes permettent de créer une expérience utilisateur fluide et efficace.
 -->
 
 ---
 layout: section
+class: flex items-center justify-center
 ---
 
-# 04. Ce qui est spécial sur mobile
+# <span class="text-4xl font-bold">04. Ce qui est spécial sur mobile</span>
 
 ---
 layout: two-cols
 ---
 
-# <span style="color: #2B90B6;">Ce qui est difficile sur mobile</span>
+## <span style="color: #2B90B6;">Ce qui est difficile sur mobile</span>
 
 <div class="mr-6">
 
@@ -551,84 +562,85 @@ Du côté de l’usage, le contexte d’utilisation des appareils mobiles est tr
 
 ---
 
-# <span style="color: #2B90B6;">Comment on fait les interfaces mobiles</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Comment on fait les interfaces mobiles</span>
 
-<div class="grid grid-cols-3 gap-4 mt-4">
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:menu class="text-2xl text-orange-400 inline-block" />
+<div class="grid grid-cols-3 gap-2 mt-2">
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:menu class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Navigation</div>
-    <ul class="text-xs mt-2 space-y-1">
+    <div class="font-bold text-xl mb-2">Navigation</div>
+    <ul class="text-base mt-2 space-y-2">
       <li>Barre en bas ou menu caché</li>
       <li>On glisse pour changer de page</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:list-boxes class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:list-boxes class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Organisation</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>On met les informations dans des cartes.</li>
-      <li>On fait défiler les listes.</li>
+    <div class="font-bold text-xl mb-2">Organisation</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On met les informations dans des cartes</li>
+      <li>On fait défiler les listes</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:settings class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:settings class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold text-sm">Boutons :</div>
-    <ul class="text-xs mt-1 space-y-0.5">
-      <li>Bouton rond pour les actions importantes.</li>
-      <li>On glisse pour faire des actions.</li>
+    <div class="font-bold text-xl mb-2">Boutons</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>Bouton rond pour les actions importantes</li>
+      <li>On glisse pour faire des actions</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:popup class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:popup class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Réactions :</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>On voit des messages courts.</li>
-      <li>On sent des vibrations.</li>
+    <div class="font-bold text-xl mb-2">Réactions</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On voit des messages courts</li>
+      <li>On sent des vibrations</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:text-link class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:text-link class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">On écrit :</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>Le clavier s'adapte à ce qu'on écrit.</li>
-      <li>On propose des mots.</li>
+    <div class="font-bold text-xl mb-2">On écrit</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>Le clavier s'adapte à ce qu'on écrit</li>
+      <li>On propose des mots</li>
     </ul>
   </div>
   
-  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-lg">
-    <div class="text-center mb-2">
-      <carbon:chart-custom class="text-2xl text-orange-400 inline-block" />
+  <div class="bg-gray-800 bg-opacity-50 p-3 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+    <div class="text-center mb-3">
+      <carbon:chart-custom class="text-3xl text-orange-400 inline-block" />
     </div>
-    <div class="font-bold">Animations :</div>
-    <ul class="text-xs mt-2 space-y-1">
-      <li>On fait des transitions douces.</li>
+    <div class="font-bold text-xl mb-2">Animations</div>
+    <ul class="text-base mt-2 space-y-2">
+      <li>On fait des transitions douces</li>
+      <li>On anime les changements d'état</li>
     </ul>
   </div>
 </div>
 
 <!--
-Les patterns de design mobile facilitent l’expérience utilisateur en structurant la navigation, l’organisation du contenu et les interactions. Ils incluent des éléments comme la navigation gestuelle, les cartes pour afficher l’information, les boutons flottants pour les actions rapides, ainsi que des retours visuels et haptiques pour améliorer l’intuitivité.
+Les patterns de design mobile facilitent l'expérience utilisateur en structurant la navigation, l'organisation du contenu et les interactions. Ils incluent des éléments comme la navigation gestuelle, les cartes pour afficher l'information, les boutons flottants pour les actions rapides, ainsi que des retours visuels et haptiques pour améliorer l'intuitivité.
 
-Navigation gestuelle : Permet d’interagir sans boutons grâce aux gestes.
+Navigation gestuelle : Permet d'interagir sans boutons grâce aux gestes.
 Cartes (Cards UI) : Présente les informations sous forme de blocs clairs et modulables.
-Bouton d’action flottant (FAB) : Offre un accès rapide aux actions principales.
+Bouton d'action flottant (FAB) : Offre un accès rapide aux actions principales.
 Retours visuels et haptiques : Fournit des indications via animations et vibrations.
-Hiérarchie de l’information : Organise le contenu pour une lecture fluide.
-Dark Mode et adaptabilité : Améliore le confort visuel et économise l’énergie.
+Hiérarchie de l'information : Organise le contenu pour une lecture fluide.
+Dark Mode et adaptabilité : Améliore le confort visuel et économise l'énergie.
 -->
 
 ---
@@ -692,43 +704,59 @@ Enfin, iOS fonctionne dans un environnement très contrôlé avec peu de fragmen
 layout: section
 ---
 
-# 05. Comment faire des interfaces tactiles faciles à utiliser
-
+# <span class="text-4xl font-bold">05. Comment faire des interfaces tactiles faciles à utiliser</span>
 ---
 layout: two-cols
 ---
 
-## <span style="color: #2B90B6;">Ce qu'il faut faire</span>
+# <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Ce qu'il faut faire</span>
 
-<div class="grid grid-cols-2 gap-6">
-<div>
+<div class="mr-10">
 
-- **Boutons assez grands**
-  - Pour que les doigts puissent les toucher facilement.
+<ul class="space-y-4 text-lg">
+  <li><strong class="text-xl">Boutons assez grands</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour que les doigts puissent les toucher facilement</li>
+      <li>Minimum 44×44 points (iOS) ou 48×48 dp (Android)</li>
+    </ul>
+  </li>
+  <li><strong class="text-xl">Assez d'espace entre les boutons</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour ne pas se tromper</li>
+      <li>Au moins 8-12 pixels d'espacement</li>
+    </ul>
+  </li>
+</ul>
 
-- **Assez d'espace entre les boutons :**
-  - Pour ne pas se tromper.
-
-
-
-</div>
 </div>
 
 ::right::
 
-<div class="pl-4 pt-10">
+<div class="pl-8">
 
-- **Réaction rapide :**
-  - Quand on touche, il faut que ça réagisse vite.
+<ul class="space-y-4 text-lg">
+  <li><strong class="text-xl">Réaction rapide</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Quand on touche, il faut que ça réagisse vite</li>
+      <li>Moins de 100ms pour une expérience fluide</li>
+    </ul>
+  </li>
+  <li><strong class="text-xl">On voit ce qui se passe</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Des couleurs qui changent, des petites animations</li>
+      <li>Confirmation visuelle des actions</li>
+    </ul>
+  </li>
+  
+  <li><strong class="text-xl">On sent des vibrations</strong>
+    <ul class="ml-6 mt-2 text-base">
+      <li>Pour confirmer qu'on a bien touché</li>
+      <li>Retour haptique subtil et significatif</li>
+    </ul>
+  </li>
+</ul>
 
-- **On voit ce qui se passe :**
-  - Des couleurs qui changent, des petites animations.
-
-- **On sent des vibrations :**
-  - Pour confirmer qu'on a bien touché.
 </div>
-
-
 
 <!--
 Pour assurer une bonne ergonomie tactile, il faut respecter quelques principes importants.
@@ -882,13 +910,14 @@ En adoptant ces principes, le design responsive et adaptatif assure une navigati
 layout: section
 ---
 
-# 06. Le futur des écrans tactiles
+# <span class="text-4xl font-bold">06. Le futur des écrans tactiles</span>
+
 
 ---
 layout: two-cols
 ---
 
-# <span style="color: #2B90B6;">Ce qui change maintenant</span>
+## <span style="color: #2B90B6;">Ce qui change maintenant</span>
 
 <div class="mr-6">
 
@@ -904,8 +933,6 @@ layout: two-cols
 - **Petites animations :**
   - Pour rendre l'utilisation plus agréable.
 
-- **Tout est connecté :**
-  - Pour que ça marche sur tous les appareils.
 
 </div>
 
@@ -1067,21 +1094,22 @@ layout: center
 class: text-center
 ---
 
-# <span style="color: #2B90B6;">Merci de votre attention !</span>
+# <span class="text-4xl font-bold text-[#2B90B6] mb-8 block">Merci de votre attention !</span>
 
-<div class="text-lg text-orange-400 mt-4">Des questions ?</div>
+<div class="text-2xl text-orange-400 mt-8 mb-12">Des questions ?</div>
 
-<div class="pt-10 text-sm">
-  <div class="bg-gray-800 bg-opacity-50 px-4 py-2 rounded-lg inline-block">
-    Présenté par ANDRÉ SARR
+<div class="pt-12">
+  <div class="bg-gray-800 bg-opacity-70 px-6 py-3 rounded-xl shadow-lg inline-block">
+    <span class="text-xl">Présenté par ANDRÉ SARR</span>
   </div>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/Anonymous1223334444" target="_blank" alt="GitHub" class="text-xl opacity-50 !border-none !hover:text-white">
+<div class="abs-br m-8 flex gap-3">
+  <a href="https://github.com/Anonymous1223334444" target="_blank" rel="noopener noreferrer" class="text-2xl opacity-70 hover:opacity-100 hover:text-white transition-opacity">
     <carbon-logo-github />
   </a>
 </div>
+
 
 <!--
 En résumé, les interfaces tactiles et mobiles jouent un rôle crucial dans la transformation de notre interaction avec le numérique, en offrant des expériences plus directes, intuitives et adaptées à notre mode de vie moderne.
