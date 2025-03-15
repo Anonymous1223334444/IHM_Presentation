@@ -156,14 +156,15 @@ class: px-10
 ---
 
 # <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Pourquoi c'est important ?</span>
+# <span class="text-2xl font-bold text-[#2B90B6] mb-8 block">📱 Des chiffres qui parlent</span>
 
 <div class="grid grid-cols-2 gap-12 mt-8">
 <div>
 
-<ul class="space-y-6 text-xl">
-  <li><span class="font-bold text-2xl">5,3 milliards</span> d'utilisateurs de smartphones dans le monde en 2023</li>
-  <li><span class="font-bold text-2xl">70%</span> du trafic internet mondial provient des appareils mobiles</li>
-  <li><span class="font-bold text-2xl">Partout :</span> Dans les magasins, les transports, l'école, etc.</li>
+<ul class="space-y-6 text-xl"> 
+  <li>👉 <strong>5,3 milliards</strong> de smartphones utilisés dans le monde (2023) — c’est <strong>2 personnes sur 3</strong> 🌍</li> 
+  <li>👉 <strong>70%</strong> des recherches Google se font depuis un mobile 🔍</li> 
+  <li>👉 <strong>1ère source</strong> d’accès à Internet devant les ordinateurs 💻</li> 
 </ul>
 
 </div>
@@ -176,21 +177,21 @@ class: px-10
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:touch-1 class="text-xl text-white" />
     </div>
-    <div>On veut que les choses soient rapides et faciles</div>
+    <div><strong>On veut tout, tout de suite</strong> <span class="text-sm">Ex : Commander un taxi en 2 clics 🚕</span></div>
   </div>
   
   <div v-click class="flex items-center mb-3">
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:mobile class="text-xl text-white" />
     </div>
-    <div>Adaptation : Les interfaces s'adaptent à chaque personne</div>
+    <div><strong>Des écrans qui s’adaptent à nous</strong> <span class="text-sm">Ex : Dark Mode automatique la nuit 🌙</span></div>
   </div>
   
   <div v-click class="flex items-center mb-3">
     <div class="bg-orange-500 p-1 rounded-full mr-3">
       <carbon:user-avatar class="text-xl text-white" />
     </div>
-    <div>Nouveaux usages : Nouvelles façons de communiquer et de travailler. </div>
+    <div><strong>Nouveaux usages</strong> <span class="text-sm">Ex : Payer avec son téléphone, travailler en déplacement 💼</span> </div>
   </div>
   
 </div>
@@ -208,7 +209,7 @@ Cette généralisation influence fortement les comportements des utilisateurs. E
 layout: section
 ---
 
-# 02. Histoire des écrans tactiles
+# <span class="text-4xl font-bold">02. Histoire des écrans tactiles</span>
 
 ---
 
@@ -286,10 +287,11 @@ class: 'image-contain'
 ## Technologies principales
 
 <ul class="space-y-5 text-lg mt-6">
-  <li><strong class="text-xl">Résistif :</strong> Pression physique (On appuie sur l'écran)</li>
-  <li><strong class="text-xl">Capacitif :</strong> Conductivité électrique (On touche l'écran avec le doigt)</li>
-  <li><strong class="text-xl">Infrarouge :</strong> Détection par faisceaux IR (Des rayons détectent le toucher), fonctionne avec gants</li>
-  <li><strong class="text-xl">Autres :</strong> Ultrasons, caméras...</li>
+  <li><strong class="text-xl"><carbon:pressure-filled class="mt-1 mr-3 text-green-400"/>Résistif :</strong> Pression physique (On appuie sur l'écran)
+  <span class="text-sm">👉 Fonctionne par pression</span></li>
+  <li><strong class="text-xl"><carbon:touch-1-filled class="mt-1 mr-3 text-blue-400"/>Capacitif :</strong> Conductivité électrique (On touche l'écran avec le doigt)
+  <span class="text-sm">👉 Réagit au contact de la peau (comme un aimant invisible)</span></li>
+  <li><strong class="text-xl"><carbon:network-4 class="mt-1 mr-3 text-purple-400"/>Infrarouge :</strong> Détection par faisceaux IR, fonctionne avec gants <span class="text-sm">👉 comme un filet de lumière 🔦</span></li>
 </ul>
 
 <!--
@@ -305,10 +307,9 @@ class: 'items-center'
 # <span class="text-3xl font-bold text-[#2B90B6] mb-8 block">Ce qui a changé</span>
 
 <ul class="space-y-5 text-lg mt-6">
-  <li>D'abord, un seul doigt, puis plusieurs</li>
-  <li>Plus précis et plus rapide</li>
-  <li>On peut sentir les vibrations (haptique)</li>
-  <li>On peut utiliser des stylos</li>
+  <li><carbon:user-speaker class="text-2xl mr-3 text-yellow-400"/>De 1 doigt → <strong>10 doigts</strong> <span class="text-sm">(Zoom, rotation, jeux 🎮)</span></li>
+  <li><carbon:music class="text-2xl mr-3 text-pink-400"/><strong>Retour haptique</strong><span class="text-sm">(Clavier qui "vibre" comme un vrai ⌨️)</span></li>
+  <li><carbon:pen class="text-2xl mr-3 text-green-400"/><strong>Stylus intelligents</strong><span class="text-sm">(Dessin précis, pression variable 🎨)</span></li>
 </ul>
 
 <!--
